@@ -1,0 +1,1502 @@
+{
+  "en": {
+    "customer": [
+      {
+        "img": "chris",
+        "name": "Christopher G.",
+        "earn": "102"
+      },
+      {
+        "img": "isabel",
+        "name": "Isabel W.",
+        "earn": "60"
+      },
+      {
+        "img": "amelie",
+        "name": "Amelie J.",
+        "earn": "194"
+      },
+      {
+        "img": "kiyle",
+        "name": "Kyle S.",
+        "earn": "179"
+      }
+    ],
+    "invest": "just made",
+    "currency": "$",
+    "title": "Crypto Is Making People Rich",
+    "subtitle": "And You Can Become The Next Millionaire…",
+    "subtitle2": [
+      "See what famous people like",
+      "Bill Gates",
+      " and ",
+      "Eric Schmidt",
+      " have to say"
+    ],
+    "topreg1": "Start Changing",
+    "topreg2": "Your Life TODAY",
+    "fname": "First name",
+    "lname": "Last name",
+    "email": "Email",
+    "pass": "Password",
+    "pass2": "Confirm Password",
+    "button": "Next >",
+    "button_last": "REGISTER NOW",
+    "passtest": [
+      "The password must be 8 characters long.",
+      "Must contain at least 1 letter.",
+      "Must contain at least 1 number.",
+      "Must contain at least 1 capital letter."
+    ],
+    "morebox": "Example: 12John34",
+    "bcbid": [
+      "bid",
+      "326.56"
+    ],
+    "bcask": [
+      "ask",
+      "329.52"
+    ],
+    "join_title": [
+      "Join Us and Start Getting Rich with",
+      "Bitcoin Evolution!"
+    ],
+    "join_description": [
+      "The Bitcoin Evolution is a group reserved exclusively to people who jumped on the insane returns that Bitcoin offers and have quietly amassed a fortune in doing so.",
+      "Bitcoin Evolution Members enjoy retreats around the world every month while they make money on their laptop with just a few minutes of “work” every day."
+    ],
+    "descriptions": [
+      {
+        "img": "join1",
+        "name": "Laser-Accurate Performance",
+        "text": "There is no other trading app in the world that performs at the 99.4% level of accuracy that The Bitcoin Evolution is able to hit. That’s why our members from around the world trust us to double, triple, and quadruple their hard-earned money."
+      },
+      {
+        "img": "join2",
+        "name": "Superior Technology",
+        "text": "The Bitcoin Evolution software has been created using the most advanced programming the trading world has ever seen. The software is ahead of the markets by 0.01 seconds. And if you know anything about trading, you know this is a huge deal. This “time leap” makes the software the most consistent trading app on the planet."
+      },
+      {
+        "img": "join3",
+        "name": "Award-Winning Trading App",
+        "text": "The Bitcoin Evolution app has won a number of awards. The most recent award we have had the honor of receiving is getting #1 in the trading software category for the US Trading Association."
+      }
+    ],
+    "review_title": "Hear From Our Members Who Rely On Our Software To Fund Their Luxury Lifestyles",
+    "review_body": [
+      {
+        "img": "testimoniala",
+        "name": "Mark K.",
+        "place": "Fort Worth, TX",
+        "text": "\"I've been a member of the Bitcoin Evolution for only 47 days. But my life has already changed! Not only have I made my first $10K, but I've also met some of the most incredible people in the process. Thanks, Bitcoin Evolution!\""
+      },
+      {
+        "img": "testimonialb",
+        "name": "Jennifer A.",
+        "place": "Irvine, CA",
+        "text": "\"I finally know what it’s like to live the dream. I no longer feel like I’m on the outside looking in while everyone else has all the fun. The Bitcoin Evolutionhas allowed me to retire early and live the 1% lifestyle.\""
+      },
+      {
+        "img": "testimonialc",
+        "name": "Ernest I.",
+        "place": "Orem, UT",
+        "text": "\"Surprisingly, I used to be an investor on Wall Street. And I’ve never seen anything like this in my 10 year tenure at the company. My colleagues all thought I was crazy when I quit the firm to invest with the Bitcoin Evolution software full-time. $38,459 in profits later, all of my colleagues are now BEGGING me to let them in.\""
+      },
+      {
+        "img": "testimoniald",
+        "name": "Steven H.",
+        "place": "Niagara Falls, NY",
+        "text": "\"Two weeks ago, I got laid off. With no options left, I thought my life was over. Now I’m making over $1,261.42 each and every day. And for the first time in 2 months, my account isn’t overdrawn. Thanks, Bitcoin Evolution!\""
+      }
+    ],
+
+    "tableName": "Live Winstresultaten!",
+    "tableBtn": "SCHRIJF NU IN!",
+    "tableMenuItems": [
+      {
+        "name": "The Bitcoin Revolution"
+      },
+      {
+        "name": "Winst"
+      },
+      {
+        "name": "Handelstijd"
+      },
+      {
+        "name": "Cryptogeld"
+      },
+      {
+        "name": "Resultaat"
+      }
+    ],
+    "tableList": [
+      {
+        "name": "Lars Schouten.",
+        "price": "€1214",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Nelleke Kuijpers.",
+        "price": "€805",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Wouter Timmermans.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Renske van der Laan.",
+        "price": "€1180",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter Koning.",
+        "price": "250 €",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Freek Dekker.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Sander van Wijk.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€744",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Vincent Willemsen.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€848",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Freek Dekker.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€1010",
+        "date": "7/11/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "descr": "je viens de gagner un trade...",
+        "price": "370 €",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Tori",
+        "descr": "je viens de gagner un trade...",
+        "price": "485 €",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Nicholas",
+        "descr": "je viens de gagner un trade...",
+        "price": "236 €",
+        "date": "7/11/2019",
+        "currency": "USD/NZD"
+      },
+      {
+        "name": "Carol",
+        "descr": "je viens de gagner un trade...",
+        "price": "543 €",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "463 €",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Phoebe",
+        "descr": "je viens de gagner un trade...",
+        "price": "324 €",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Nancy",
+        "descr": "je viens de gagner un trade...",
+        "price": "548 €",
+        "date": "7/11/2019",
+        "currency": "NZD/USD"
+      },
+      {
+        "name": "Lonnie",
+        "descr": "je viens de gagner un trade...",
+        "price": "332 €",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Juanita",
+        "descr": "je viens de gagner un trade...",
+        "price": "498 €",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Stacy",
+        "descr": "je viens de gagner un trade...",
+        "price": "330 €",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Richard",
+        "descr": "je viens de gagner un trade...",
+        "price": "287 €",
+        "date": "7/11/2019",
+        "currency": "AUD/EUR"
+      },
+      {
+        "name": "Elizabeth",
+        "descr": "je viens de gagner un trade...",
+        "price": "281 €",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Abraham",
+        "descr": "je viens de gagner un trade...",
+        "price": "482 €",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "James",
+        "descr": "je viens de gagner un trade...",
+        "price": "446 €",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Karlene",
+        "descr": "je viens de gagner un trade...",
+        "price": "291 €",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Sheena",
+        "descr": "je viens de gagner un trade...",
+        "price": "418 €",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "324 €",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      }
+
+    ],
+
+    "how_it_works_title": "How It Works",
+    "step": "step",
+    "how_it_works_information": [
+      {
+        "img": "step1",
+        "title": [
+          "Fill Out The Registration",
+          "Form on This Page"
+        ],
+        "description": "Once your registration is accepted, you will automatically become the newest member of The Bitcoin Evolution. This means you will get to claim our proprietary bitcoin trading software for free."
+      },
+      {
+        "img": "step2",
+        "title": [
+          "Fund Your Account"
+        ],
+        "description": "Like any business, you need working capital to get started. So to start profiting with The Bitcoin Evolution, you must invest any amount you desire of $250 or more."
+      },
+      {
+        "img": "step3",
+        "title": [
+          "Start Profiting"
+        ],
+        "description": "Click trade to enjoy precise and accurate hands-free trading powered by our award-winning algorithm. You can also set the trading to manual if you prefer to trade on your own."
+      }
+    ],
+    "qna_title": "Frequently Asked Questions",
+    "qna_question": [
+      {
+        "q": "What kind of results can I expect?",
+        "a": "Bitcoin Evolution members typically profit a minimum of $1,300 daily."
+      },
+      {
+        "q": "How many hours per day do I need to work?",
+        "a": "Our members work an average of 20 minutes a day or less. Because the software handles the trading, the amount of \"work\" required is minimal."
+      },
+      {
+        "q": "What is the maximum amount that I can make?",
+        "a": "Your profits are unlimited within The Bitcoin Evolution. Some members earned their first million within just 61 days."
+      },
+      {
+        "q": "How much does the software cost?",
+        "a": "Members of The Bitcoin Evolution get a copy of our proprietary software free of charge. To become a member, simply fill out the form on this page."
+      },
+      {
+        "q": "Is this like MLM or Affiliate Marketing?",
+        "a": "This is not like MLM, affiliate marketing or anything else out there. The software is powered by an innovative algorithm that wins trades with 99.4% accuracy."
+      },
+      {
+        "q": "Are there any fees?",
+        "a": "There are no hidden fees. No broker fees or commissions. All of your money is 100% yours and you are free to withdraw it at any time you choose without delay."
+      }
+    ],
+    "last_btn": "Get Started Now!",
+    "risk": [
+      "WARNING:",
+      "Due to extremely high media demand, we will close registration as of",
+      " - HURRY!"
+    ],
+    "exclusive": [
+      "Exclusive for",
+      "English",
+      "Residents"
+    ],
+    "video": "en_1"
+  },
+
+  "nl": {
+    "customer": [
+      {
+        "img": "chris",
+        "name": "Christopher G.",
+        "earn": "102"
+      },
+      {
+        "img": "isabel",
+        "name": "Isabel W.",
+        "earn": "60"
+      },
+      {
+        "img": "amelie",
+        "name": "Amelie J.",
+        "earn": "194"
+      },
+      {
+        "img": "kiyle",
+        "name": "Kyle S.",
+        "earn": "179"
+      }
+    ],
+    "invest": "verdiende net",
+    "currency": "€",
+    "title": "Bitcoin Maakt Mensen Rijk",
+    "subtitle": "En Jij Kan De Volgende Miljonair Worden",
+    "subtitle2": [
+      "En Jij Kan De Volgende ",
+      "Miljonair Worden..."
+    ],
+    "topreg1": "START VANDAAG EN WORD RIJK!",
+    "topreg2": "En Word Rijk",
+    "fname": "Voornaam",
+    "lname": "Achternaam",
+    "email": "E-mailadres",
+    "pass": "Wachtwoord",
+    "pass2": "Wachtwoord (herhaal)",
+    "button": "Volgende",
+    "button_last": "REGISTREER NU",
+    "passtest": [
+      "Het wachtwoord moet 8 tekens lang zijn.",
+      "Moet minimaal 1 letter bevatten.",
+      "Moet minimaal 1 nummer bevatten.",
+      "Moet ten minste 1 hoofdletter bevatten."
+    ],
+    "morebox": "Voorbeeld: 12John34",
+    "join_title": [
+      "Doe Mee en Word Rijk ",
+      "met Bitcoin Evolution!"
+    ],
+    "join_description": [
+      "De Bitcoin Evolution is een groep exclusief voor mensen die met bitcoin hun rijkdom willen vergroten.",
+      "Bitcoin Evolution leden genieten van maandelijkse tripjes over heel de wereld terwijl ze nog steeds geld verdienen met hun laptop door dagelijks slechts een uurtje te werken."
+    ],
+    "mediaTitle": "Zoals te zien op",
+    "descriptions": [
+      {
+        "img": "join1",
+        "name": "Laser-Precieze Prestaties",
+        "text": "Er is geen enkele andere trading app in de wereld die een precieze heeft van 99,4%. Dat is waarom onze leden van over heel de wereld ons toevertrouwen met hun hardverdiende geld."
+      },
+      {
+        "img": "join2",
+        "name": "Superieure Technologie",
+        "text": "Bitcoin Evolution is gemaakt met de meest geavanceerde technieken die de crypto trading wereld ooit heeft gezien. De software staat wint met 0,01s van de markt en als je iets van trading weet dan snap je dat dit een groot verschil is."
+      },
+      {
+        "img": "join3",
+        "name": "Prijswinnende Trading App",
+        "text": "Bitcoin Evolution heeft een aantal awards gewonnen. De meest recente award is komt uit de United Kingdom waar we verkozen zijn tot #1 app door de UK Trading Association."
+      }
+    ],
+    "review_title": "ECHTE RECENTIES VAN ONZE KLANTEN",
+    "review_body": [
+      {
+        "img": "testimoniala",
+        "name": "Hans K.",
+        "place": "Eindhoven",
+        "text": "Eindelijk weet ik wat het is om rijk te zijn. Ik hoef niet meer naar anderen te kijken en denken \"Wow dat wil ik ook\". Dankzij de Bitcoin Evolution ben ik nu al met pensioen kunnen gaan en de 1% levensstijl leven.",
+        "from": "Winst",
+        "price": "€ 12923"
+      },
+      {
+        "img": "testimonialb",
+        "name": "Fleur J.",
+        "place": "Irvine, CA",
+        "text": "Ik ben pas 47 dagen lid van Bitcoin Evolution, maar mijn leven is al drastisch veranderd! Ik heb niet alleen mijn eerste €10Kis binnen, maar ik heb ook erg interessante mensen ontmoet. Dank je Bitcoin Evolution!",
+        "from": "Winst",
+        "price": "€ 7192"
+      },
+      {
+        "img": "testimonialc",
+        "name": "Lars M.",
+        "place": "Amsterdam",
+        "text": "Verwonderlijk heb ik al eerder op de beurs gewerkt, maar na 10 jaar heb ik nog nooit eerder een kans gezien als deze. Mijn collega's verklaarden mij voor gek dat ik die baan opgaf om full-time met de Bitcoin Evolution aan de slag te kunnen... €38,459 in winst later, SMEKEN mijn oude collega's om hen ook toe te laten tot de Bitcoin Evolution",
+        "from": "Winst",
+        "price": "€ 10519"
+      },
+      {
+        "img": "testimoniald",
+        "name": "Maarten v. K.",
+        "place": "Eindhoven",
+        "text": "Twee weken geleden werd ik ontslagen. Met weinig andere opties over dacht ik dat mijn leven voorbij was. Nu verdien ik meer dan €1,261.42 elke dag opnieuw. En voor het eerst in 2 maanden komt mijn bankrekening niet in het rood. Thanks, Bitcoin Evolution!",
+        "from": "Winst",
+        "price": "€ 8519"
+      }
+    ],
+
+    "tableName": "Live Winstresultaten!",
+    "tableBtn": "SCHRIJF NU IN!",
+    "tableMenuItems": [
+      {
+        "name": "The Bitcoin Revolution"
+      },
+      {
+        "name": "Winst"
+      },
+      {
+        "name": "Handelstijd"
+      },
+      {
+        "name": "Cryptogeld"
+      },
+      {
+        "name": "Resultaat"
+      }
+    ],
+    "tableList": [
+      {
+        "name": "Lars Schouten.",
+        "price": "€1214",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Nelleke Kuijpers.",
+        "price": "€805",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Wouter Timmermans.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Renske van der Laan.",
+        "price": "€1180",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter Koning.",
+        "price": "€250",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Freek Dekker.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Sander van Wijk.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€744",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Vincent Willemsen.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€848",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Freek Dekker.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€1010",
+        "date": "7/11/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "descr": "je viens de gagner un trade...",
+        "price": "€370",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Tori",
+        "descr": "je viens de gagner un trade...",
+        "price": "€485",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Nicholas",
+        "descr": "je viens de gagner un trade...",
+        "price": "€236",
+        "date": "7/11/2019",
+        "currency": "USD/NZD"
+      },
+      {
+        "name": "Carol",
+        "descr": "je viens de gagner un trade...",
+        "price": "€543",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "€463",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Phoebe",
+        "descr": "je viens de gagner un trade...",
+        "price": "€324",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Nancy",
+        "descr": "je viens de gagner un trade...",
+        "price": "€548",
+        "date": "7/11/2019",
+        "currency": "NZD/USD"
+      },
+      {
+        "name": "Lonnie",
+        "descr": "je viens de gagner un trade...",
+        "price": "€332",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Juanita",
+        "descr": "je viens de gagner un trade...",
+        "price": "€498",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Stacy",
+        "descr": "je viens de gagner un trade...",
+        "price": "€330",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Richard",
+        "descr": "je viens de gagner un trade...",
+        "price": "€287",
+        "date": "7/11/2019",
+        "currency": "AUD/EUR"
+      },
+      {
+        "name": "Elizabeth",
+        "descr": "je viens de gagner un trade...",
+        "price": "€281",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Abraham",
+        "descr": "je viens de gagner un trade...",
+        "price": "€482",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "James",
+        "descr": "je viens de gagner un trade...",
+        "price": "€446",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Karlene",
+        "descr": "je viens de gagner un trade...",
+        "price": "€291",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Sheena",
+        "descr": "je viens de gagner un trade...",
+        "price": "€418",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "€324",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      }
+    ],
+
+    "how_it_works_title": "Hoe Het Werkt",
+    "how_it_works_button": "OPEN GRATIS ACCOUNT",
+    "step": "Stap",
+    "how_it_works_information": [
+      {
+        "img": "step1",
+        "title": "Vul Het Registratie",
+        "description": "Als je registratie succesvol is, word je automatisch een nieuw lid van de Bitcoin Evolution. Dit betekent dat je gratis geholpen zult worden bij je eerste stappen in deze wereld."
+      },
+      {
+        "img": "step2",
+        "title": "Maak Je Eerste Storting",
+        "description": "Zoals met alles heb je startkapitaal nodig om te beginnen. Om winst te maken met Bitcoin Evolution moet je een eerste storting doen van €250 of meer."
+      },
+      {
+        "img": "step3",
+        "title": "Start met winst maken",
+        "description": "Je krijgt gratis begeleiding van een senior account manager die je weg wijs maakt met het systeem. Je zult zien dat je dezelfde dag nog winst gaat maken door zijn advies op te volgen."
+      }
+    ],
+    "qna_title": "Veelgestelde Vragen",
+    "qna_question": [
+      {
+        "q": "Wat voor resultaten kan ik verwachten?",
+        "a": "Bitcoin Evolution leden verdienen gemiddeld €1,300 per dag."
+      },
+      {
+        "q": "Hoeveel tijd per dag moet ik werken?",
+        "a": "Onze leden werken ongeveer 20 minuten per dag aan Bitcoin Evolution. Het systeem is zo opgezet dat er veel geautomatiseerd is waardoor werktijd minimaal is."
+      },
+      {
+        "q": "Wat is het maximale dat ik kan verdienen?",
+        "a": "Er zit geen limiet aan hoeveel je kan verdienen. Er zijn zelfs leden die hun eerste miljoen binnen 61 dagen hebben verdiend."
+      },
+      {
+        "q": "Hoeveel kost de software?",
+        "a": "Leden van Bitcoin Evolution mogen gratis gebruik maken van het systeem door zich aan te melden op deze pagina. Uiteraard moet er wel een eerste storting worden gedaan."
+      },
+      {
+        "q": "Is dit zoals MLM of affiliate marketing?",
+        "a": "Dit is niet zoals MLM, affiliate marketing of soortgelijke zaken. Dit systeem werkt op basis van een algoritme met 99,4% precisie."
+      },
+      {
+        "q": "Zijn er kosten aan verbonden?",
+        "a": "Er zijn geen verborgen kosten. Geen extra commissies of broker fees. Al jouw geld is 100% van jou en dit kan je op elk ogenblik terug laten boeken naar jouw bankrekening."
+      }
+    ],
+    "last_btn": "Begin Vandaag!",
+    "risk": [
+      "Waarschuwing:",
+      "Wegens extreme drukte, sluiten wij de registratie per",
+      " -  SCHIET OP!"
+    ],
+    "exclusive": [
+      "Exclusief voor",
+      "Inwoners in ",
+      "Netherlands"
+    ],
+    "flag": "nlflag",
+    "video": "en_1"
+  },
+
+  "it": {
+    "customer": [
+      {
+        "img": "chris",
+        "name": "Christopher G.",
+        "earn": "102"
+      },
+      {
+        "img": "isabel",
+        "name": "Isabel W.",
+        "earn": "60"
+      },
+      {
+        "img": "amelie",
+        "name": "Amelie J.",
+        "earn": "194"
+      },
+      {
+        "img": "kiyle",
+        "name": "Kyle S.",
+        "earn": "179"
+      }
+    ],
+    "invest": "ha fatto",
+    "currency": "€",
+    "title": "Bitcoin Sta Rendendo le Persone Ricche",
+    "subtitle": "E tu puoi diventare il prossimo milionario",
+    "subtitle2": [
+      "E tu puoi Diventare Il ",
+      "Prossimo Milionario..."
+    ],
+    "topreg1": "CAMBIA LA TUA VITA ADESSO!",
+    "topreg2": "vita oggi",
+    "fname": "Nome",
+    "lname": "Cognome",
+    "email": "Email",
+    "pass": "Password",
+    "pass2": "Password (ripetizione)",
+    "button": "ISCRIVITI GRATIS",
+    "button_last": "Iscriviti subito",
+    "passtest": [
+      "La password deve essere lunga 8 caratteri.",
+      "Deve contenere almeno una lettera.",
+      "Deve contenere almeno un numero.",
+      "Deve contenere almeno 1 lettera maiuscola."
+    ],
+    "morebox": "Esempio: 12John34",
+    "join_title": [
+      "Unisciti ",
+      "al Bitcoin Revolution!"
+    ],
+    "join_description": [
+      "Bitcoin Revolution è un gruppo riservato esclusivamente agli iscritti che sfruttano gli incredibili profitti offerti dai Bitcoin e stanno accumulando un’enorme fortuna. Gli iscritti al Bitcoin Revolution se ne stano...",
+      ""
+    ],
+    "mediaTitle": "Come visto su",
+    "descriptions": [
+      {
+        "img": "join1",
+        "name": "Precisione chirurgica",
+        "text": "Nessun altro programma al mondo può vantare una percentuale di scambi vincenti del 99,4% come quella di Bitcoin Evolution. Ecco perché i nostri soci di tutto il mondo contano su di noi per raddoppiare, triplicare e quadruplicare i soldi investiti e faticosamente guadagnati."
+      },
+      {
+        "img": "join2",
+        "name": "Tecnologia superiore",
+        "text": "Il software Bitcoin Evolution è stato creato utilizzando una programmazione avanzatissima nel settore del trading. Il programma è in grado di anticipare i mercati di 0,01 secondi. Chi conosce il trading sa che si tratta di un vantaggio significativo. Anzi, questa sorta di preveggenza fa tutta la differenza del mondo e rende il software un'arma impareggiabile nelle mani del trader."
+      },
+      {
+        "img": "join3",
+        "name": "Programma di trading pluripremiato",
+        "text": "Bitcoin Evolution ha ottenuto numerosi riconoscimenti. L’ultimo che abbiamo avuto l’onore di ricevere è essere arrivati primi nella categoria software di trading della UK Trading Association."
+      }
+    ],
+    "review_title": "Testimonianze reali dai nostri utenti",
+    "review_body": [
+      {
+        "img": "testimoniala",
+        "name": "Mark K.",
+        "place": "Fort Worth, TX",
+        "text": "Ieri mi sono LICENZIATA...e oggi me ne vado a festeggiare in Sardegna! È PAZZESCO. E tutto grazie a Bitcoin Revolution. GRAZIE Bitcoin Revolution!",
+        "from": "Profitti",
+        "price": "€12923"
+      },
+      {
+        "img": "testimonialb",
+        "name": "Jennifer A.",
+        "place": "Irvine, CA",
+        "text": "Sono membro di Bitcoin Revolution da soli 47 giorni ma la mia vita è cambiata completamente! Non solo ho guadagnato i miei primi €10K ma ho anche conosciuto un sacco di persone fantastiche. Grazie Bitcoin Revolution!",
+        "from": "Profitti",
+        "price": "€7192"
+      },
+      {
+        "img": "testimonialc",
+        "name": "Ernest I.",
+        "place": "Orem, UT",
+        "text": "Ho fatto investimenti in Borsa a livello professionale ma non ho mai visto niente del genere in 10 anni. I miei colleghi mi hanno preso per pazza quando mi sono licenziata per passare a Bitcoin Revolution. Adesso, con €38,459 in più sul conto, mi IMPLORANO di farli partecipare",
+        "from": "Profitti",
+        "price": "€10519"
+      },
+      {
+        "img": "testimoniald",
+        "name": "Jane K.",
+        "place": "Fort Worth, TX",
+        "text": "\"Sono stato licenziato due settimane fa e difficilmente avrei trovato un lavoro decente. Ho passato dei brutti momenti ma adesso guadagno oltre €1,261.42 ogni giorno. Alla faccia dei miei capi! E per la prima volta in 2 mesi il mio conto non è in rosso. Grazie Bitcoin Evolution!\"",
+        "from": "Profitti",
+        "price": "€8519"
+      }
+    ],
+
+    "tableName": "Profitti in Tempo Reale!",
+    "tableBtn": "Unisciti Adesso!",
+    "tableMenuItems": [
+      {
+        "name": "La Bitcoin Revolution"
+      },
+      {
+        "name": "Profitti"
+      },
+      {
+        "name": "Tempo di Scambio"
+      },
+      {
+        "name": "Cryptocurrency"
+      },
+      {
+        "name": "Risultato"
+      }
+    ],
+    "tableList": [
+      {
+        "name": "Lars Schouten.",
+        "price": "€1214",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Nelleke Kuijpers.",
+        "price": "€805",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Wouter Timmermans.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Renske van der Laan.",
+        "price": "€1180",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter Koning.",
+        "price": "€250",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Freek Dekker.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Sander van Wijk.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€744",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Vincent Willemsen.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€848",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Freek Dekker.",
+        "descr": "je viens de gagner un trade...",
+        "price": "€1010",
+        "date": "7/11/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "descr": "je viens de gagner un trade...",
+        "price": "€370",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Tori",
+        "descr": "je viens de gagner un trade...",
+        "price": "€485",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Nicholas",
+        "descr": "je viens de gagner un trade...",
+        "price": "€236",
+        "date": "7/11/2019",
+        "currency": "USD/NZD"
+      },
+      {
+        "name": "Carol",
+        "descr": "je viens de gagner un trade...",
+        "price": "€543",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "€463",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Phoebe",
+        "descr": "je viens de gagner un trade...",
+        "price": "€324",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Nancy",
+        "descr": "je viens de gagner un trade...",
+        "price": "€548",
+        "date": "7/11/2019",
+        "currency": "NZD/USD"
+      },
+      {
+        "name": "Lonnie",
+        "descr": "je viens de gagner un trade...",
+        "price": "€332",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Juanita",
+        "descr": "je viens de gagner un trade...",
+        "price": "€498",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Stacy",
+        "descr": "je viens de gagner un trade...",
+        "price": "€330",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Richard",
+        "descr": "je viens de gagner un trade...",
+        "price": "€287",
+        "date": "7/11/2019",
+        "currency": "AUD/EUR"
+      },
+      {
+        "name": "Elizabeth",
+        "descr": "je viens de gagner un trade...",
+        "price": "€281",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Abraham",
+        "descr": "je viens de gagner un trade...",
+        "price": "€482",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "James",
+        "descr": "je viens de gagner un trade...",
+        "price": "€446",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Karlene",
+        "descr": "je viens de gagner un trade...",
+        "price": "€291",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Sheena",
+        "descr": "je viens de gagner un trade...",
+        "price": "€418",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "€324",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      }
+    ],
+
+    "how_it_works_title": "Come funziona",
+    "how_it_works_button": "COMECE AGORA",
+    "step": "Passo",
+    "how_it_works_information": [
+      {
+        "img": "step1",
+        "title": [
+          "Registrati sul sito",
+          ""
+        ],
+        "description": "Una volta che la tua registrazione è accettata, diventerai automaticamente il nuovo membro della Bitcoin Revolution. E potrai richedere di ottenere gratuitamente il nostro software proprietario per il trading in bitcoin"
+      },
+      {
+        "img": "step2",
+        "title": [
+          "Deposita nel tuo account"
+        ],
+        "description": "Come in ogni altra attività, hai bisogno di capitale per iniziare. Così per iniziare ad approfittare della Bitcoin Revolution, devi investire quasiasi somma tu desideri, a partire da €250 o più."
+      },
+      {
+        "img": "step3",
+        "title": [
+          "Ultimo passo"
+        ],
+        "description": "Clicca su trade per iniziare a fare trading in modo automatico, preciso e accurato grazie al nostro pluripremiato algoritmo. Puoi anche impostare il trading in manuale se preferisci fare trading da solo."
+      }
+    ],
+    "qna_title": "Domande frequenti",
+    "qna_question": [
+      {
+        "q": "Quali risultati posso aspettarmi?",
+        "a": "Gli iscritti a Bitcoin Revolution guadagnano normalmente almeno €1100 al giorno."
+      },
+      {
+        "q": "Quante ore al giorno dovrei lavorare?",
+        "a": "I nostri iscritti lavorano in media 20 minuti al giorno o anche meno. Ciò dipende dal fatto che il sistema esegue in automatico tutte le operazioni per cui il “lavoro” da fare è minimo."
+      },
+      {
+        "q": "Quant’è il massimo che posso guadagnare?",
+        "a": "Con Bitcoin Revolution i profitti sono illimitati. Alcuni nostri soci sono riusciti a guadagnare il loro primo milione in soli 61 giorni."
+      },
+      {
+        "q": "Quanto cosa il software?",
+        "a": "I soci di Bitcoin Revolution ricevono una copia del nostro software proprietario gratuitamente. Per diventare socio basta compilare il modulo su questa pagina."
+      },
+      {
+        "q": "È simile ai sistemi multi-level o marketing di affiliazione?",
+        "a": "Questo sistema non ha niente a che fare con multi-level, marketing di affiliazione o robe del genere. Il programma si basa su un algoritmo innovativo in grado di vincere le contrattazioni con una precisione del 99,4%."
+      },
+      {
+        "q": "Ci sono commissioni?",
+        "a": "Non ci sono commissioni nascoste di nessun tipo, neanche per il broker. I soldi guadagnati sono tuoi al 100% e puoi prelevarli in qualsiasi momento senza ritardi."
+      }
+    ],
+    "last_btn": "COMECE AGORA",
+    "risk": [
+      "Attenzione:",
+      "A causa dell'elevato numero di domande ricevute, chiuderemo presto la registrazione il",
+      " - Affrettati!"
+    ],
+    "exclusive": [
+      "Offerte esclusive per",
+      "commercia in ",
+      "Italy"
+    ],
+    "flag": "itflag",
+    "video": "en_1"
+  },
+
+  "pl": {
+    "customer": [
+      {
+        "img": "chris",
+        "name": "Christopher G.",
+        "earn": "102"
+      },
+      {
+        "img": "isabel",
+        "name": "Isabel W.",
+        "earn": "60"
+      },
+      {
+        "img": "amelie",
+        "name": "Amelie J.",
+        "earn": "194"
+      },
+      {
+        "img": "kiyle",
+        "name": "Kyle S.",
+        "earn": "179"
+      }
+    ],
+    "invest": "właśnie zarobił",
+    "currency": "zł",
+    "title": "Dzięki bitcoin ludzie się bogacą",
+    "subtitle": "I Ty możesz zostać milionerem...",
+    "subtitle2": [
+      "I Ty możesz zostać",
+      "Następnym milionerem..."
+    ],
+    "topreg1": "ZMIEŃ SWOJE ŻYCIE JUŻ DZISIAJ!",
+    "topreg2": "swoje życie",
+    "fname": "Imię",
+    "lname": "Nazwisko",
+    "email": "E-mail",
+    "pass": "Hasło",
+    "pass2": "Hasło (Powtórz)",
+    "button": "Daj mi dostęp!",
+    "button_last": "Zarejestruj się teraz",
+    "passtest": [
+      "Hasło musi składać się z 8 znaków.",
+      "Musi zawierać co najmniej 1 literę.",
+      "Musi zawierać co najmniej 1 numer.",
+      "Musi zawierać co najmniej 1 wielką literę."
+    ],
+    "morebox": "Przykład: 12John34",
+    "join_title": [
+      "Dołącz do nas i zacznij się wzbogacać ",
+      "z Bitcoin Rewolucją!"
+    ],
+    "join_description": [
+      "Bitcoin Rewolucją jest grupą przeznaczoną wyłącznie dla osób, które skorzystały z szalonych zwrotów, jakie oferuje bitcoin i po cichu zgromadziły fortunę.",
+      "Członkowie Bitcoin Rewolucją korzystają co miesiąc z miejsc wypoczynkowych na całym świecie, jednocześnie zarabiając pieniądze „pracując” kilka minut dziennie na swoim laptopie."
+    ],
+    "mediaTitle": "Jak wynika z",
+    "descriptions": [
+      {
+        "img": "join1",
+        "name": "Wydajność z dokładnością lasera",
+        "text": "Nie istnieje na świecie druga aplikacja tradingowa, która działa z 99,4% poziomem dokładności, jaki może osiągnąć Bitcoin Evolution. Dlatego nasi członkowie na całym świecie ufają nam, że podwoimy, potroimy i czterokrotnie pomnożymy ich ciężko zarobione pieniądze."
+      },
+      {
+        "img": "join2",
+        "name": "Najlepsza technologia",
+        "text": "Oprogramowanie Bitcoin Rewolucją zostało stworzone z wykorzystaniem najbardziej zaawansowanego dostępnego oprogramowania w branży tradingowej. Oprogramowanie wyprzedza rynki o 0,01 sekundy. Ten „skok czasu” sprawia, że oprogramowanie jest najbardziej spójną aplikacją tradingową na świecie."
+      },
+      {
+        "img": "join3",
+        "name": "Nagradzana aplikacja tradingowa Aplikacja",
+        "text": "Bitcoin Rewolucją wygrała liczne nagrody. Ostatnio przyznana nagroda, jaką mieliśmy zaszczyt otrzymać, to #1 miejsce w kategorii oprogramowania tradingowego od Amerykańskiego Stowarzyszenia Tradingowego."
+      }
+    ],
+    "review_title": "Prawdziwych świadectw naszych użytkowników",
+    "review_body": [
+      {
+        "img": "testimoniala",
+        "name": "Jacek K.",
+        "place": "Łódź",
+        "text": "Jestem członkiem Bitcoin Rewolucją od 47 dni. Ale moje życie już się zmieniło! Nie tylko zarobiłem pierwsze 10 tysięcy dolarów, ale też w międzyczasie poznałem świetnych ludzi. Dzięki, Bitcoin Rewolucją!",
+        "from": "Profit",
+        "price": "zł47,752.75"
+      },
+      {
+        "img": "testimonialb",
+        "name": "Weronika D.",
+        "place": "Warsawa",
+        "text": "W końcu wiem, jak to jest spełniać swoje marzenia. Nie czuję się już, jakbym tylko obserwowała innych, którzy dobrze się bawią. Dzięki Bitcoin Rewolucją mogłam przejść na wcześniejszą emeryturę i żyć stylem życia 1%",
+        "from": "Profit",
+        "price": "zł26,549.53"
+      },
+      {
+        "img": "testimonialc",
+        "name": "Zygmunt J.",
+        "place": "Kraków",
+        "text": "Zadziwiające jest to, że byłem inwestorem na Wall Street i nigdy nie widziałem nic podobnego w całej swojej 10-letniej karierze w firmie. Moi koledzy myśleli, że zwariowałem, kiedy się zwolniłem, aby móc inwestować na pełny etat z oprogramowaniem Bitcoin Rewolucją.",
+        "from": "Profit",
+        "price": "zł38,847.18"
+      },
+      {
+        "img": "testimoniald",
+        "name": "Magdalena S.",
+        "place": "Poznań",
+        "text": "Dwa tygodnie temu straciłem pracę. Nie mając żadnych innych opcji, myślałem, że moje życie się skończyło. Teraz codziennie zarabiam ponad 1,261,42 dolarów. I po raz pierwszy od dwóch miesięcy nie mam na koncie debetu. Dzięki, Bitcoin Rewolucją!",
+        "from": "Profit",
+        "price": "zł31,442.58"
+      }
+    ],
+
+    "tableName": "Zacznij przeżywać wyniki z profitem!",
+    "tableBtn": "Dołącz teraz!",
+    "tableMenuItems": [
+      {
+        "name": "Bitcoin Rewolucją"
+      },
+      {
+        "name": "Profit"
+      },
+      {
+        "name": "Czas handlu"
+      },
+      {
+        "name": "Kryptowaluta"
+      },
+      {
+        "name": "Wynik"
+      }
+    ],
+    "tableList": [
+      {
+        "name": "Lars Schouten.",
+        "price": "zł1214",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Nelleke Kuijpers.",
+        "price": "zł805",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Wouter Timmermans.",
+        "price": "zł824",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Renske van der Laan.",
+        "price": "zł1180",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter Koning.",
+        "price": "zł250",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Freek Dekker.",
+        "price": "zł824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Sander van Wijk.",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł744",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Vincent Willemsen.",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł848",
+        "date": "7/11/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Freek Dekker.",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł1010",
+        "date": "7/11/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł370",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Tori",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł485",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Nicholas",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł236",
+        "date": "7/11/2019",
+        "currency": "USD/NZD"
+      },
+      {
+        "name": "Carol",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł543",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł463",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Phoebe",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł324",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Nancy",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł548",
+        "date": "7/11/2019",
+        "currency": "NZD/USD"
+      },
+      {
+        "name": "Lonnie",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł332",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "Juanita",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł498",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Stacy",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł330",
+        "date": "7/11/2019",
+        "currency": "USD/EUR"
+      },
+      {
+        "name": "Richard",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł287",
+        "date": "7/11/2019",
+        "currency": "AUD/EUR"
+      },
+      {
+        "name": "Elizabeth",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł281",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Abraham",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł482",
+        "date": "7/11/2019",
+        "currency": "GBP/JPY"
+      },
+      {
+        "name": "James",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł446",
+        "date": "7/11/2019",
+        "currency": "USD/JPY"
+      },
+      {
+        "name": "Karlene",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł291",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      },
+      {
+        "name": "Sheena",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł418",
+        "date": "7/11/2019",
+        "currency": "EUR/AUD"
+      },
+      {
+        "name": "Denise",
+        "descr": "je viens de gagner un trade...",
+        "price": "zł324",
+        "date": "7/11/2019",
+        "currency": "GBP/AUD"
+      }
+    ],
+
+    "how_it_works_title": "Jak to działa",
+    "how_it_works_button": "Załóż darmowe konto",
+    "step": "Krok",
+    "how_it_works_information": [
+      {
+        "img": "step1",
+        "title": [
+          "Wypełnij formularz zgłoszeniowy",
+          "na tej stronie"
+        ],
+        "description": "Po zaakceptowaniu Twojego zgłoszenia automatycznie staniesz się najnowszym członkiem Bitcoin Evolution. Oznacza to, że będziesz mógł za darmo odebrać, chronione prawem autorskim, oprogramowanie bitcoin trading."
+      },
+      {
+        "img": "step2",
+        "title": [
+          "Zasil swoje konto"
+        ],
+        "description": "Jak w każdym biznesie, aby rozpocząć, potrzebujesz kapitału początkowego. Aby zacząć czerpać zyski z Bitcoin Evolution, musisz zainwestować dowolną kwotę $250 wyższą."
+      },
+      {
+        "img": "step3",
+        "title": [
+          "Zacznij zarabiać"
+        ],
+        "description": "Kliknij handluj, aby korzystać z precyzyjnego i dokładnego handlu bez użycia rąk, zasilanego naszym nagradzanym algorytmem. Możesz również korzystać z tradingu manualnego, jeśli wolisz sam przeprowadzać transakcje."
+      }
+    ],
+    "qna_title": "Najczęściej zadawane pytania",
+    "qna_question": [
+      {
+        "q": "Jakich wyników mogę się spodziewać?",
+        "a": "Członkowie Bitcoin Rewolucją zazwyczaj uzyskują minimalny profit rzędu zł4,829.89 dziennie."
+      },
+      {
+        "q": "Ile godzin dziennie muszę pracować?",
+        "a": "Nasi członkowie pracują średnio 20 minut dziennie lub mniej. Ponieważ oprogramowanie przeprowadza transakcje, wymagany czas „pracy” jest minimalny."
+      },
+      {
+        "q": "Ile mogę maskymalnie zarobić?",
+        "a": "W Bitcoin Rewolucją Twoje zyski są nielimitowane. Niektórzy członkowie zarabiają swój pierwszy milion w ciągu zaledwie 61 dni."
+      },
+      {
+        "q": "Jaki jest koszt oprogramowania?",
+        "a": "Członkowie Bitcoin Rewolucją otrzymują kopię naszego autorskiego oprogramowania za darmo. Aby zostać członkiem, wypełnij formularz znajdujący się na tej stronie."
+      },
+      {
+        "q": "Czy to jest podobne do marketingu wielopoziomowego lub marketingu partnerskiego?",
+        "a": "To nie ma nic wspólnego z marketingiem wielopoziomowym czy marketingiem partnerskim. Oprogramowanie jest zasilane innowacyjnym algorytmem, który wygrywa transakcje z 99,4% dokładnością."
+      },
+      {
+        "q": "Czy są jakieś opłaty?",
+        "a": "Nie ma żadnych ukrytych opłat. Bez opłat brokerskich i prowizji. Wszystkie Twoje pieniądze są w 100% Twoje i możesz je wypłacić w każdej chwili, bez opóźnień."
+      }
+    ],
+    "last_btn": "Zacznij teraz",
+    "risk": [
+      "UWAGA:",
+      "W związku z prośbami ze strony mediów, rejestracja będzie zamknięta od",
+      " - Pospiesz się!"
+    ],
+    "exclusive": [
+      "Ekskluzywna oferta dla",
+      "Inwestorzy w Poland"
+    ],
+    "flag": "plflag",
+    "video": "en_1"
+  }
+}
