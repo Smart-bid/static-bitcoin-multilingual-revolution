@@ -77,7 +77,7 @@ export default class Regform extends Component {
                 if (submitResponse.success) {
                     this.props.handleSubmit(paramsToValidate);
                     this.props.handleStep(this.props.step + 1);
-                    console.log(paramsToValidate);
+                    // console.log(paramsToValidate);
                 }  else{
                     this.setState({
                         errors: submitResponse.errors

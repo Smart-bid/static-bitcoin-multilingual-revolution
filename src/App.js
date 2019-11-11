@@ -44,7 +44,6 @@ export default class App extends ReactQueryParams {
 
     getValueFromInputs = e => {
         this.setState({ [e.target.name] : e.target.value});
-        console.log(e.target.value);
     };
 
     getCountryCode = (countryVal) => {

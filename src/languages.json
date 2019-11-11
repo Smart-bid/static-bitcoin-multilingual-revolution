@@ -1,382 +1,4 @@
 {
-  "en": {
-    "customer": [
-      {
-        "img": "chris",
-        "name": "Christopher G.",
-        "earn": "102"
-      },
-      {
-        "img": "isabel",
-        "name": "Isabel W.",
-        "earn": "60"
-      },
-      {
-        "img": "amelie",
-        "name": "Amelie J.",
-        "earn": "194"
-      },
-      {
-        "img": "kiyle",
-        "name": "Kyle S.",
-        "earn": "179"
-      }
-    ],
-    "invest": "just made",
-    "currency": "$",
-    "title": "Crypto Is Making People Rich",
-    "subtitle": "And You Can Become The Next Millionaire…",
-    "subtitle2": [
-      "See what famous people like",
-      "Bill Gates",
-      " and ",
-      "Eric Schmidt",
-      " have to say"
-    ],
-    "topreg1": "Start Changing",
-    "topreg2": "Your Life TODAY",
-    "fname": "First name",
-    "lname": "Last name",
-    "email": "Email",
-    "pass": "Password",
-    "pass2": "Confirm Password",
-    "button": "Next >",
-    "button_last": "REGISTER NOW",
-    "passtest": [
-      "The password must be 8 characters long.",
-      "Must contain at least 1 letter.",
-      "Must contain at least 1 number.",
-      "Must contain at least 1 capital letter."
-    ],
-    "morebox": "Example: 12John34",
-    "bcbid": [
-      "bid",
-      "326.56"
-    ],
-    "bcask": [
-      "ask",
-      "329.52"
-    ],
-    "join_title": [
-      "Join Us and Start Getting Rich with",
-      "Bitcoin Evolution!"
-    ],
-    "join_description": [
-      "The Bitcoin Evolution is a group reserved exclusively to people who jumped on the insane returns that Bitcoin offers and have quietly amassed a fortune in doing so.",
-      "Bitcoin Evolution Members enjoy retreats around the world every month while they make money on their laptop with just a few minutes of “work” every day."
-    ],
-    "descriptions": [
-      {
-        "img": "join1",
-        "name": "Laser-Accurate Performance",
-        "text": "There is no other trading app in the world that performs at the 99.4% level of accuracy that The Bitcoin Evolution is able to hit. That’s why our members from around the world trust us to double, triple, and quadruple their hard-earned money."
-      },
-      {
-        "img": "join2",
-        "name": "Superior Technology",
-        "text": "The Bitcoin Evolution software has been created using the most advanced programming the trading world has ever seen. The software is ahead of the markets by 0.01 seconds. And if you know anything about trading, you know this is a huge deal. This “time leap” makes the software the most consistent trading app on the planet."
-      },
-      {
-        "img": "join3",
-        "name": "Award-Winning Trading App",
-        "text": "The Bitcoin Evolution app has won a number of awards. The most recent award we have had the honor of receiving is getting #1 in the trading software category for the US Trading Association."
-      }
-    ],
-    "review_title": "Hear From Our Members Who Rely On Our Software To Fund Their Luxury Lifestyles",
-    "review_body": [
-      {
-        "img": "testimoniala",
-        "name": "Mark K.",
-        "place": "Fort Worth, TX",
-        "text": "\"I've been a member of the Bitcoin Evolution for only 47 days. But my life has already changed! Not only have I made my first $10K, but I've also met some of the most incredible people in the process. Thanks, Bitcoin Evolution!\""
-      },
-      {
-        "img": "testimonialb",
-        "name": "Jennifer A.",
-        "place": "Irvine, CA",
-        "text": "\"I finally know what it’s like to live the dream. I no longer feel like I’m on the outside looking in while everyone else has all the fun. The Bitcoin Evolutionhas allowed me to retire early and live the 1% lifestyle.\""
-      },
-      {
-        "img": "testimonialc",
-        "name": "Ernest I.",
-        "place": "Orem, UT",
-        "text": "\"Surprisingly, I used to be an investor on Wall Street. And I’ve never seen anything like this in my 10 year tenure at the company. My colleagues all thought I was crazy when I quit the firm to invest with the Bitcoin Evolution software full-time. $38,459 in profits later, all of my colleagues are now BEGGING me to let them in.\""
-      },
-      {
-        "img": "testimoniald",
-        "name": "Steven H.",
-        "place": "Niagara Falls, NY",
-        "text": "\"Two weeks ago, I got laid off. With no options left, I thought my life was over. Now I’m making over $1,261.42 each and every day. And for the first time in 2 months, my account isn’t overdrawn. Thanks, Bitcoin Evolution!\""
-      }
-    ],
-
-    "tableName": "Live Winstresultaten!",
-    "tableBtn": "SCHRIJF NU IN!",
-    "tableMenuItems": [
-      {
-        "name": "The Bitcoin Revolution"
-      },
-      {
-        "name": "Winst"
-      },
-      {
-        "name": "Handelstijd"
-      },
-      {
-        "name": "Cryptogeld"
-      },
-      {
-        "name": "Resultaat"
-      }
-    ],
-    "tableList": [
-      {
-        "name": "Lars Schouten.",
-        "price": "€1214",
-        "date": "7/11/2019",
-        "currency": "EOS/ETH"
-      },
-      {
-        "name": "Nelleke Kuijpers.",
-        "price": "€805",
-        "date": "7/11/2019",
-        "currency": "EOS/ETH"
-      },
-      {
-        "name": "Wouter Timmermans.",
-        "price": "€824",
-        "date": "7/11/2019",
-        "currency": "ETH/LTC"
-      },
-      {
-        "name": "Renske van der Laan.",
-        "price": "€1180",
-        "date": "7/11/2019",
-        "currency": "ETH/LTC"
-      },
-      {
-        "name": "Peter Koning.",
-        "price": "250 €",
-        "date": "7/11/2019",
-        "currency": "USD/JPY"
-      },
-      {
-        "name": "Freek Dekker.",
-        "price": "€824",
-        "date": "7/11/2019",
-        "currency": "EOS/ETH"
-      },
-      {
-        "name": "Sander van Wijk.",
-        "descr": "je viens de gagner un trade...",
-        "price": "€744",
-        "date": "7/11/2019",
-        "currency": "EOS/ETH"
-      },
-      {
-        "name": "Vincent Willemsen.",
-        "descr": "je viens de gagner un trade...",
-        "price": "€848",
-        "date": "7/11/2019",
-        "currency": "ETH/LTC"
-      },
-      {
-        "name": "Freek Dekker.",
-        "descr": "je viens de gagner un trade...",
-        "price": "€1010",
-        "date": "7/11/2019",
-        "currency": "BTC/ETH"
-      },
-
-      {
-        "name": "Claudia",
-        "descr": "je viens de gagner un trade...",
-        "price": "370 €",
-        "date": "7/11/2019",
-        "currency": "USD/EUR"
-      },
-      {
-        "name": "Tori",
-        "descr": "je viens de gagner un trade...",
-        "price": "485 €",
-        "date": "7/11/2019",
-        "currency": "GBP/JPY"
-      },
-      {
-        "name": "Nicholas",
-        "descr": "je viens de gagner un trade...",
-        "price": "236 €",
-        "date": "7/11/2019",
-        "currency": "USD/NZD"
-      },
-      {
-        "name": "Carol",
-        "descr": "je viens de gagner un trade...",
-        "price": "543 €",
-        "date": "7/11/2019",
-        "currency": "GBP/AUD"
-      },
-      {
-        "name": "Denise",
-        "descr": "je viens de gagner un trade...",
-        "price": "463 €",
-        "date": "7/11/2019",
-        "currency": "USD/JPY"
-      },
-      {
-        "name": "Phoebe",
-        "descr": "je viens de gagner un trade...",
-        "price": "324 €",
-        "date": "7/11/2019",
-        "currency": "GBP/AUD"
-      },
-      {
-        "name": "Nancy",
-        "descr": "je viens de gagner un trade...",
-        "price": "548 €",
-        "date": "7/11/2019",
-        "currency": "NZD/USD"
-      },
-      {
-        "name": "Lonnie",
-        "descr": "je viens de gagner un trade...",
-        "price": "332 €",
-        "date": "7/11/2019",
-        "currency": "GBP/JPY"
-      },
-      {
-        "name": "Juanita",
-        "descr": "je viens de gagner un trade...",
-        "price": "498 €",
-        "date": "7/11/2019",
-        "currency": "USD/JPY"
-      },
-      {
-        "name": "Stacy",
-        "descr": "je viens de gagner un trade...",
-        "price": "330 €",
-        "date": "7/11/2019",
-        "currency": "USD/EUR"
-      },
-      {
-        "name": "Richard",
-        "descr": "je viens de gagner un trade...",
-        "price": "287 €",
-        "date": "7/11/2019",
-        "currency": "AUD/EUR"
-      },
-      {
-        "name": "Elizabeth",
-        "descr": "je viens de gagner un trade...",
-        "price": "281 €",
-        "date": "7/11/2019",
-        "currency": "EUR/AUD"
-      },
-      {
-        "name": "Abraham",
-        "descr": "je viens de gagner un trade...",
-        "price": "482 €",
-        "date": "7/11/2019",
-        "currency": "GBP/JPY"
-      },
-      {
-        "name": "James",
-        "descr": "je viens de gagner un trade...",
-        "price": "446 €",
-        "date": "7/11/2019",
-        "currency": "USD/JPY"
-      },
-      {
-        "name": "Karlene",
-        "descr": "je viens de gagner un trade...",
-        "price": "291 €",
-        "date": "7/11/2019",
-        "currency": "GBP/AUD"
-      },
-      {
-        "name": "Sheena",
-        "descr": "je viens de gagner un trade...",
-        "price": "418 €",
-        "date": "7/11/2019",
-        "currency": "EUR/AUD"
-      },
-      {
-        "name": "Denise",
-        "descr": "je viens de gagner un trade...",
-        "price": "324 €",
-        "date": "7/11/2019",
-        "currency": "GBP/AUD"
-      }
-
-    ],
-
-    "how_it_works_title": "How It Works",
-    "step": "step",
-    "how_it_works_information": [
-      {
-        "img": "step1",
-        "title": [
-          "Fill Out The Registration",
-          "Form on This Page"
-        ],
-        "description": "Once your registration is accepted, you will automatically become the newest member of The Bitcoin Evolution. This means you will get to claim our proprietary bitcoin trading software for free."
-      },
-      {
-        "img": "step2",
-        "title": [
-          "Fund Your Account"
-        ],
-        "description": "Like any business, you need working capital to get started. So to start profiting with The Bitcoin Evolution, you must invest any amount you desire of $250 or more."
-      },
-      {
-        "img": "step3",
-        "title": [
-          "Start Profiting"
-        ],
-        "description": "Click trade to enjoy precise and accurate hands-free trading powered by our award-winning algorithm. You can also set the trading to manual if you prefer to trade on your own."
-      }
-    ],
-    "qna_title": "Frequently Asked Questions",
-    "qna_question": [
-      {
-        "q": "What kind of results can I expect?",
-        "a": "Bitcoin Evolution members typically profit a minimum of $1,300 daily."
-      },
-      {
-        "q": "How many hours per day do I need to work?",
-        "a": "Our members work an average of 20 minutes a day or less. Because the software handles the trading, the amount of \"work\" required is minimal."
-      },
-      {
-        "q": "What is the maximum amount that I can make?",
-        "a": "Your profits are unlimited within The Bitcoin Evolution. Some members earned their first million within just 61 days."
-      },
-      {
-        "q": "How much does the software cost?",
-        "a": "Members of The Bitcoin Evolution get a copy of our proprietary software free of charge. To become a member, simply fill out the form on this page."
-      },
-      {
-        "q": "Is this like MLM or Affiliate Marketing?",
-        "a": "This is not like MLM, affiliate marketing or anything else out there. The software is powered by an innovative algorithm that wins trades with 99.4% accuracy."
-      },
-      {
-        "q": "Are there any fees?",
-        "a": "There are no hidden fees. No broker fees or commissions. All of your money is 100% yours and you are free to withdraw it at any time you choose without delay."
-      }
-    ],
-    "last_btn": "Get Started Now!",
-    "risk": [
-      "WARNING:",
-      "Due to extremely high media demand, we will close registration as of",
-      " - HURRY!"
-    ],
-    "exclusive": [
-      "Exclusive for",
-      "English",
-      "Residents"
-    ],
-    "video": "en_1"
-  },
-
   "nl": {
     "customer": [
       {
@@ -744,7 +366,24 @@
       "Netherlands"
     ],
     "flag": "nlflag",
-    "video": "en_1"
+    "video": "en_1",
+
+    "error_invalid_email":  "Fout: Ongeldig e-mailadres",
+    "error_empty_email": "Fout: Leeg e-mailadres",
+    "error_empty_last_name": "Fout: Lege achternaam",
+    "error_last_name_digits": "Fout: Achternaam kan geen cijfers bevatten",
+    "error_empty_first_name": "Fout: Lege voornaam",
+    "error_first_name_digits": "Fout: Voornaam kan geen cijfers bevatten",
+    "error_empty_password": "Fout: Leeg wachtwoord",
+    "error_pass_length": "Fout: Het wachtwoord moet tussen de 6 en 8 karakters lang zijn",
+    "error_pass_special_chars": "Fout: Het wachtwoord mag geen speciale karakters bevatten",
+    "error_pass_small_letter": "Fout: Het wachtwoord moet minstens een kleine letter bevatten",
+    "error_pass_cap_letter": "Fout: Het wachtwoord moet minstens een hoofdletter bevatten",
+    "error_pass_one_num":"Fout: Het wachtwoord moet minstens een cijfer bevatten",
+    "error_accept_conditions": "Fout: Accepteer de algemene voorwaarden",
+    "error_real_phone": "Het systeem kon u niet registreren. Verstrek uw werkelijke telefoonnummer.",
+    "error_real_name": "Het systeem kon u niet registreren. Verstrek uw werkelijke e-mailadres.",
+    "error_country": "Het systeem kon u niet registreren. Dit aanbod is niet beschikbaar in uw land."
   },
 
   "it": {
@@ -1121,7 +760,24 @@
       "Italy"
     ],
     "flag": "itflag",
-    "video": "en_1"
+    "video": "en_1",
+
+    "error_invalid_email":  "Errore: e-mail non valida",
+    "error_empty_email": "Errore: e-mail vuota",
+    "error_empty_last_name": "Errore: cognome assente",
+    "error_last_name_digits": "Errore: il cognome non può contenere numeri",
+    "error_empty_first_name": "Errore: nome assente",
+    "error_first_name_digits": "Errore: Il nome non può contenere numeri",
+    "error_empty_password": "Errore: password assente",
+    "error_pass_length": "Errore: la lunghezza della password deve essere compresa tra 6 e 8 caratteri",
+    "error_pass_special_chars": "Errore: la password non può contenere caratteri speciali",
+    "error_pass_small_letter": "Errore: la password deve contenere almeno una lettera minuscola",
+    "error_pass_cap_letter": "Errore: la password deve contenere almeno una lettera maiuscola",
+    "error_pass_one_num":"Errore: la password deve contenere almeno un numero",
+    "error_accept_conditions": "Errore: per favore, accetta i termini e le condizioni",
+    "error_real_phone": "Il sistema non è riuscito a registrarti. Questa offerta non è disponibile per il tuo paese.",
+    "error_real_name": "Il sistema non è riuscito a registrarti. Per favore, inserisci il tuo vero indirizzo e-mail.",
+    "error_country": "Il sistema non è riuscito a registrarti. Questa offerta non è disponibile nel tuo paese."
   },
 
   "pl": {
@@ -1497,6 +1153,23 @@
       "Inwestorzy w Poland"
     ],
     "flag": "plflag",
-    "video": "en_1"
+    "video": "en_1",
+
+    "error_invalid_email":  "Błąd: nieprawidłowy adres e-mail",
+    "error_empty_email": "Błąd: puste pole e-mail",
+    "error_empty_last_name": "Błąd: puste pole nazwisko",
+    "error_last_name_digits": "Błąd: nazwisko nie może zawierać cyfr",
+    "error_empty_first_name": "Błąd: puste pole imię",
+    "error_first_name_digits": "Błąd: imię nie może zawierać cyfr",
+    "error_empty_password": "Błąd: puste pole hasło",
+    "error_pass_length": "Błąd: długość hasła musi wynosić od 6 do 8 znaków",
+    "error_pass_special_chars": "Błąd: hasło nie może zawierać żadnych znaków specjalnych",
+    "error_pass_small_letter": "Błąd: hasło powinno zawierać co najmniej jedną małą literę",
+    "error_pass_cap_letter": "Błąd: hasło powinno zawierać co najmniej jedną wielką literę",
+    "error_pass_one_num":"Błąd: hasło powinno zawierać co najmniej jedną cyfrę",
+    "error_accept_conditions": "Błąd: należy zaakceptować regulamin",
+    "error_real_phone": "System nie może Cię zarejestrować. Podaj poprawny numer telefonu.",
+    "error_real_name": "System nie może Cię zarejestrować. Podaj poprawny adres e-mail.",
+    "error_country": "System nie może Cię zarejestrować. Ta oferta nie jest dostępna w Twoim kraju."
   }
 }
