@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {UserContext} from '../../../helpers/dataContext'
 import IntlTelInput from 'react-intl-tel-input'
 import 'react-intl-tel-input/dist/main.css'
 
@@ -14,30 +13,47 @@ export default class Regform extends Component {
             last_name: "",
             email: "",
             check: false,
-            password: "",
-            confirm_password: "",
             phone_country_prefix: "",
+            country_name: "",
             tel: "",
             agree_1: true,
             agree_2: true,
-            firstPassType: 'password',
-            secondPassType: 'password',
-            errorIndexes: [0,1,2,3]
+            errors: '',
         };
+        // this.handleBackwards = this.handleBackwards.bind(this);
+        // this.handleSync = this.handleSync.bind(this);
     }
 
-    static contextType = UserContext;
+    componentDidUpdate() {
+        let forms = [...document.querySelectorAll('.Regform')];
+
+        forms.map(form => {
+            let steps = [...form.querySelectorAll('.form-wrapper')];
+            steps.map((step, index) => {
+                if (index+1 === this.props.step - 1) {
+                    step.classList.add('step');
+                }
+            })
+        })
+    }
 
     handleSelectFlag = (num, country) => {
         this.setState({
-            phone_country_prefix: '+' + `${country.dialCode}`
+            phone_country_prefix: '+' + `${country.dialCode}`,
+            country_name: country.iso2
         })
     };
-    /*phoneNumberBlur = (status, value, countryData) => {
+
+    phoneNumberBlur = (status, value, countryData) => {
         this.setState({
-            phone_country_prefix: '+' + `${countryData.dialCode}`
+            phone_country_prefix: '+' + `${countryData.dialCode}`,
+            country_name: countryData.iso2
         })
-    };*/
+    }
+
+    phoneValidate = (value) => {
+        return !/[^0-9\-\/]/.test(value);
+    }
 
     handleForward = (e) => {
         let form = e.target.parentElement;
@@ -46,41 +62,49 @@ export default class Regform extends Component {
         // Step 1
         if(this.props.step === 1){
             paramsToValidate = {
-                email: this.context.email,
-                first_name: this.context.first_name,
-                last_name: this.context.last_name,
+                email: this.state.email,
+                first_name: this.state.first_name,
+                last_name: this.state.last_name,
                 agree_2: this.state.agree_2,
                 funnel_name: window.location.origin,
             };
-            let submitResponse = this.props.validateParams(paramsToValidate);
+            let checkParams = this.props.validateParams(paramsToValidate);
 
-            if (submitResponse.success) {
-                this.props.handleForward(paramsToValidate);
-                this.props.handleStep(this.props.step + 1);
-            } else{
+            if (checkParams.success) {
+                this.props.setLeadData(paramsToValidate).then(this.props.handleLeadStep(), this.props.handleStep(this.props.step + 1));
+            } else {
+                const fieldWithMessages = Object.keys(checkParams.errors).find(field => checkParams.errors[field].hasOwnProperty('messages'));
+                const firstError = checkParams.errors[fieldWithMessages].messages[0];
                 this.setState({
-                    errors: submitResponse.errors
+                    errors: firstError
                 })
             }
         }
         // Step 2
         else if (this.props.step === 2){
-            if (this.state.tel.length > 3) {
+            let tel = form.querySelector('.tel');
+            let phone_number = tel.value.replace(/^\s+|\s/g, '');
+
+            if (!this.phoneValidate(phone_number)) {
+                this.setState({
+                    errors: ['Enter only number']
+                });
+                return this.state.errors
+            } else if (phone_number.length > 3) {
                 paramsToValidate = {
-                    first_name: this.context.first_name,
-                    last_name: this.context.last_name,
-                    email: this.context.email,
-                    phone_number: this.state.tel,
+                    phone_number: phone_number,
                     phone_country_prefix: this.state.phone_country_prefix
                 };
-                let submitResponse = this.props.validateParams(paramsToValidate);
-                if (submitResponse.success) {
-                    this.props.handleSubmit(paramsToValidate);
-                    this.props.handleStep(this.props.step + 1);
-                    // console.log(paramsToValidate);
-                }  else{
+                let submitPhone = this.props.validateParams(paramsToValidate);
+                if (submitPhone.success) {
+                    this.props.setLeadData(paramsToValidate).then(this.props.handleSubmit(), this.props.handleStep(this.props.step + 1));
                     this.setState({
-                        errors: submitResponse.errors
+                        errors: []
+                    });
+                }
+                else{
+                    this.setState({
+                        errors: submitPhone.errors
                     })
                 }
             } else {
@@ -92,21 +116,17 @@ export default class Regform extends Component {
         }
     };
 
-    componentDidUpdate() {
-        let forms = [...document.querySelectorAll('.Regform')];
-        forms.map(form => {
-            let steps = [...form.querySelectorAll('.form-wrapper')];
-            steps.map((step, index) => {
-                if (index+1 === this.props.step-1) {
-                    step.classList.add('step');
-                }
-            })
-        })
-    }
+    handleStepChange = (name, value) => {
+        let errors = null;
+        this.setState({[name]: value.replace(/^\s+|\s/g, ''), errors});
+    };
 
     render() {
         const {
-          tel
+            first_name,
+            last_name,
+            email,
+            tel
         } = this.state;
         let languageManager = this.props.languageManager();
 
@@ -135,16 +155,16 @@ export default class Regform extends Component {
                     <div className='inner'>
                         <div className='form-wrapper one'>
                             {this.state.errors && <div className="errors">
-                                {this.state.errors[0]}
+                                {this.state.errors}
                             </div>}
                             <div className="form-group">
-                                <input className="form-control fname" type="text" name="first_name" placeholder={languageManager.fname} defaultValue={this.context.first_name} onChange={(e) => {this.context.getValueFromInputs(e)}}/>
+                                <input className="form-control fname" type="text" name="first_name" placeholder={languageManager.fname} value={first_name} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
                             </div>
                             <div className="form-group">
-                                <input className="form-control lname" type="text" name="last_name" placeholder={languageManager.lname} defaultValue={this.context.last_name} onChange={(e) => {this.context.getValueFromInputs(e)}}/>
+                                <input className="form-control lname" type="text" name="last_name" placeholder={languageManager.lname} value={last_name} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
                             </div>
                             <div className="form-group">
-                                <input className="form-control email" type="text" name="email" placeholder={languageManager.email} defaultValue={this.context.email} onChange={(e) => {this.context.getValueFromInputs(e)}}/>
+                                <input className="form-control email" type="text" name="email" placeholder={languageManager.email} value={email} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
                             </div>
                             <div className="form-group">
                                 <button onClick={this.handleForward} className='registerBtn'>{languageManager.button}</button>
@@ -158,17 +178,17 @@ export default class Regform extends Component {
                                 <div className="row">
                                     <div className="col-6">
                                         <div className="form-group">
-                                            <input type="text" name="first_name" placeholder={languageManager.fname} defaultValue={this.context.first_name} className="form-control gtd-field-fname" onChange={(e) => {this.context.getValueFromInputs(e)}}/>
+                                            <input type="text" name="first_name" placeholder={languageManager.fname} value={first_name} className="form-control gtd-field-fname" onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
                                         </div>
                                     </div>
                                     <div className="col-6">
                                         <div className="form-group">
-                                            <input type="text" name="last_name" placeholder={languageManager.lname} className="form-control gtd-field-lname" defaultValue={this.context.last_name} onChange={(e) => {this.context.getValueFromInputs(e)}}/>
+                                            <input type="text" name="last_name" placeholder={languageManager.lname} className="form-control gtd-field-lname" value={last_name} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="form-group">
-                                    <input type="email" name="email" placeholder={languageManager.email} className="form-control gtd-field-email" defaultValue={this.context.email} onChange={(e) => {this.context.getValueFromInputs(e)}}/>
+                                    <input type="email" name="email" placeholder={languageManager.email} className="form-control gtd-field-email" value={email} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
                                 </div>
                                 <div className="form-group">
                                     <div className="row" style={{margin:0}}>
@@ -179,16 +199,14 @@ export default class Regform extends Component {
                                             autoPlaceholder={true}
                                             separateDialCode={true}
                                             onSelectFlag={this.handleSelectFlag}
-                                            //onPhoneNumberBlur={this.phoneNumberBlur}
-                                            defaultCountry={this.context.countryCode}
+                                            defaultCountry={this.state.country_name}
+                                            onPhoneNumberBlur={this.phoneNumberBlur}
                                             onPhoneNumberChange={(status, value, countryData, number, id) => {
-
                                                 if (value.length < 15) {
                                                     this.setState({
                                                         phone_country_prefix: `+${countryData.dialCode}`,
                                                         tel: value.replace(/[^0-9]/g, ''),
                                                     })
-                                                    this.context.getCountryCode(countryData.iso2);
                                                 }
                                             }}
                                             value={tel}

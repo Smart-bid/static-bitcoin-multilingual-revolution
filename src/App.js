@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ReactQueryParams from 'react-query-params'
-import {UserContext} from './helpers/dataContext';
 
 import TopSection from './components/TopSection/TopSection'
 import MidSection from './components/MidSection/MidSection'
@@ -16,47 +15,27 @@ export default class App extends ReactQueryParams {
         this.state = {
             step: 1,
             page: 'main',
-            first_name: '',
-            last_name: '',
-            email: '',
-            countryCode: ""
         };
 
         this.handleStep = this.handleStep.bind(this);
         this.pageHandler = this.pageHandler.bind(this);
-        this.handleForward = this.handleForward.bind(this);
     }
 
-    static contextType = UserContext;
 
     handleStep = (step) => {
         this.setState({step})
     };
 
-    handleForward = (params) => {
-        this.props.handleLeadStep(params);
-    };
-
-    handleSubmit = (params) => {
-        this.props.onSubmit(params)
-        .then(() => this.setState({ step: 1 }))
-    };
-
-    getValueFromInputs = e => {
-        this.setState({ [e.target.name] : e.target.value});
-    };
-
-    getCountryCode = (countryVal) => {
-        this.setState({
-            countryCode: countryVal
-        })
+    handleSubmit = () => {
+        this.props.handleSubmit()
+            .then(() => this.setState({ step: 1 }))
     };
 
     pageHandler(page) {
         window.scrollTo(0, 0);
 
         switch (page) {
-            default:  
+            default:
                 this.setState({page: 'main'});
                 break;
             case 'terms':
@@ -83,23 +62,7 @@ export default class App extends ReactQueryParams {
         if (this.state.page === 'main') {
             return (
                 <div className='App'>
-                    <UserContext.Provider value={{
-                        first_name: this.state.first_name,
-                        last_name: this.state.last_name,
-                        email: this.state.email,
-                        countryCode: this.state.countryCode,
-                        getCountryCode: this.getCountryCode,
-                        getValueFromInputs: this.getValueFromInputs
-                    }}>
-                    <TopSection
-                                countryCode={this.props.countryCode}
-                                handleStep={this.handleStep}
-                                step={this.state.step}
-                                handleSubmit={this.handleSubmit}
-                                pageHandler={this.pageHandler}
-                                handleForward={this.handleForward}
-                                languageManager={this.props.languageManager}
-                                validateParams={this.props.validateParams}/>
+                    <TopSection {...this.props} handleStep={this.handleStep} handleSubmit={this.handleSubmit} step={this.state.step}/>
 
                     <MidSection languageManager={this.props.languageManager}/>
 
@@ -107,7 +70,7 @@ export default class App extends ReactQueryParams {
                         languageManager={this.props.languageManager}
                         pageHandler={this.pageHandler}
                         handleForward={this.handleForward}/>
-                    </UserContext.Provider>
+
                 </div>
             )
         } else {

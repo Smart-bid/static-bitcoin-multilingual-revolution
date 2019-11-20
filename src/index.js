@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LpFramework, {LpFrameworkWrapper} from '../lp-framework/dist/index'
+import { LpFramework, LpFrameworkWrapper } from 'sb-lp-framework';
 import './index.scss';
 import './main.css';
 import App from './App';

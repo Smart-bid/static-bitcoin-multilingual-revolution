@@ -57,15 +57,7 @@ export default class TopSection extends Component {
                             <div className="col-lg-4 col-md-5 col-sm-12">
                                 <div className="form-container" ref={this.regPanel}>
                                     <div className="formHeader"><h1>{languageManager.topreg1}</h1></div>
-                                    <Regform validateParams={this.props.validateParams}
-                                             form={this.props.form}
-                                             pageHandler={this.props.pageHandler}
-                                             countryCode={this.props.countryCode}
-                                             languageManager={this.props.languageManager}
-                                             handleStep={this.props.handleStep}
-                                             handleForward={this.props.handleForward}
-                                             handleSubmit={this.props.handleSubmit}
-                                             step={this.props.step}/>
+                                    <Regform {...this.props} />
                                 </div>
                             </div>
                         </div>

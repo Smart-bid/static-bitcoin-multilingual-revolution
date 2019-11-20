@@ -4,6 +4,7 @@
 bcevolution-folder/node_modules
 lp-framework/node_modules
 /lp-framework
+/_lp-framework
 /node_modules
 /.pnp
 .pnp.js
