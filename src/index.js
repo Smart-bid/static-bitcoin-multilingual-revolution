@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
     <LpFramework
         resourceFile={require('./languages.json')}
-        funnel_name={"test"}>
+        funnel_name={"Bitcoin Revolution"}>
         <LpFrameworkWrapper Component={App}/>
     </LpFramework>,
     document.getElementById('root')

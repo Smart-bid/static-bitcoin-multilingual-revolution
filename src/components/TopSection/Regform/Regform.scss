@@ -543,6 +543,12 @@
         margin-bottom: 4vw;
         color: #333;
     }
+    .response-error {
+        padding: 35px 20px;
+        button {
+            margin-top: 20px;
+        }
+    }
 }
 
 .error {

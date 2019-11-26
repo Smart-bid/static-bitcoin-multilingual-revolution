@@ -76,7 +76,7 @@ export default class Table extends Component {
                                                 <td>{item.date}</td>
                                                 <td>{item.currency}</td>
                                                 <td>
-                                                    <img src={yellowTick} width="20"/>
+                                                    <img src={yellowTick} width="20" alt=""/>
                                                 </td>
                                             </tr>
                                         )

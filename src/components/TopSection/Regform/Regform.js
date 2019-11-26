@@ -9,117 +9,52 @@ export default class Regform extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            first_name: "",
-            last_name: "",
-            email: "",
-            check: false,
-            phone_country_prefix: "",
-            country_name: "",
-            tel: "",
-            agree_1: true,
-            agree_2: true,
+            form: {
+                first_name: "",
+                last_name: "",
+                email: "",
+                tel: "",
+            },
             errors: '',
+            step: 1
         };
-        // this.handleBackwards = this.handleBackwards.bind(this);
-        // this.handleSync = this.handleSync.bind(this);
     }
 
-    componentDidUpdate() {
-        let forms = [...document.querySelectorAll('.Regform')];
-
-        forms.map(form => {
-            let steps = [...form.querySelectorAll('.form-wrapper')];
-            steps.map((step, index) => {
-                if (index+1 === this.props.step - 1) {
-                    step.classList.add('step');
-                }
-            })
-        })
-    }
-
-    handleSelectFlag = (num, country) => {
+    updateValue(key, value, callback) {
+        let obj = {},
+            tempForm = this.state.form
+        obj[key] = value
+        Object.assign(tempForm, obj)
         this.setState({
-            phone_country_prefix: '+' + `${country.dialCode}`,
-            country_name: country.iso2
-        })
-    };
-
-    phoneNumberBlur = (status, value, countryData) => {
-        this.setState({
-            phone_country_prefix: '+' + `${countryData.dialCode}`,
-            country_name: countryData.iso2
+            form: tempForm
         })
     }
 
-    phoneValidate = (value) => {
-        return !/[^0-9\-\/]/.test(value);
+    handleForward() {
+        let validate = this.props.validateParams(this.state.form)
+
+        if (validate.success)
+            this.props.setLeadData(this.state.form)
+            .then(this.setState({
+                step: this.state.step +1
+            }))
+            .then(() => { if (this.state.step === 2) this.props.handleLeadStep() })
+            .then(() => this.setState({
+                errors: {}
+            }))
+        else this.setState({errors: validate.errors})
     }
 
-    handleForward = (e) => {
-        let form = e.target.parentElement;
-        let paramsToValidate = {};
+    handleSubmit() {
+        let validate = this.props.validateParams(this.state.form)
+        if (validate.success)
 
-        // Step 1
-        if(this.props.step === 1){
-            paramsToValidate = {
-                email: this.state.email,
-                first_name: this.state.first_name,
-                last_name: this.state.last_name,
-                agree_2: this.state.agree_2,
-                funnel_name: window.location.origin,
-            };
-            let checkParams = this.props.validateParams(paramsToValidate);
-
-            if (checkParams.success) {
-                this.props.setLeadData(paramsToValidate).then(this.props.handleLeadStep(), this.props.handleStep(this.props.step + 1));
-            } else {
-                const fieldWithMessages = Object.keys(checkParams.errors).find(field => checkParams.errors[field].hasOwnProperty('messages'));
-                const firstError = checkParams.errors[fieldWithMessages].messages[0];
-                this.setState({
-                    errors: firstError
-                })
-            }
-        }
-        // Step 2
-        else if (this.props.step === 2){
-            let tel = form.querySelector('.tel');
-            let phone_number = tel.value.replace(/^\s+|\s/g, '');
-
-            if (!this.phoneValidate(phone_number)) {
-                this.setState({
-                    errors: ['Enter only number']
-                });
-                return this.state.errors
-            } else if (phone_number.length > 3) {
-                paramsToValidate = {
-                    phone_number: phone_number,
-                    phone_country_prefix: this.state.phone_country_prefix
-                };
-                let submitPhone = this.props.validateParams(paramsToValidate);
-                if (submitPhone.success) {
-                    this.props.setLeadData(paramsToValidate).then(this.props.handleSubmit(), this.props.handleStep(this.props.step + 1));
-                    this.setState({
-                        errors: []
-                    });
-                }
-                else{
-                    this.setState({
-                        errors: submitPhone.errors
-                    })
-                }
-            } else {
-                this.setState({
-                    errors: ['Enter phone number']
-                });
-                return this.state.errors
-            }
-        }
-    };
-
-    handleStepChange = (name, value) => {
-        let errors = null;
-        this.setState({[name]: value.replace(/^\s+|\s/g, ''), errors});
-    };
+            this.props.setLeadData(this.state.form)
+            .then(this.setState({loading: true}))
+            .then(this.props.handleSubmit)
+            .then(res => (res.redirectUrl) ? window.location = res.redirectUrl : this.setState({responseError: res.error}))
+        else this.setState({errors: validate.errors})
+    }
 
     render() {
         const {
@@ -127,13 +62,15 @@ export default class Regform extends Component {
             last_name,
             email,
             tel
-        } = this.state;
-        let languageManager = this.props.languageManager();
+        } = this.state.form;
+        let languageManager = this.props.languageManager(),
+            errorMsgs = (this.state.errors) ? Object.keys(this.state.errors).map(key => {
+                if (this.state.errors[key].messages) return this.state.errors[key].messages
+            }).filter(value => value) : []
 
-        if (this.props.step <= 2) {
+        if (!this.state.loading) {
             return (
-                <div className={"Regform " + (this.props.class ? this.props.class : '')} ref={this.setTextInputRef}>
-
+                <div className="Regform">
                     <div className="steps form-header">
                         <div className="progbar">
                             <ul className="formUl">
@@ -151,44 +88,41 @@ export default class Regform extends Component {
                             </ul>
                         </div>
                     </div>
-
                     <div className='inner'>
+
+                        {(this.state.step === 1) ?
                         <div className='form-wrapper one'>
-                            {this.state.errors && <div className="errors">
-                                {this.state.errors}
-                            </div>}
+                            {errorMsgs.map(arr => arr.map(error => <div key={error} className="errors">{error}</div>))}
                             <div className="form-group">
-                                <input className="form-control fname" type="text" name="first_name" placeholder={languageManager.fname} value={first_name} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
+                                <input className="form-control fname" type="text" name="first_name" placeholder={languageManager.fname} defaultValue={first_name} onChange={(e) => this.updateValue(e.target.name, e.target.value)}/>
                             </div>
                             <div className="form-group">
-                                <input className="form-control lname" type="text" name="last_name" placeholder={languageManager.lname} value={last_name} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
+                                <input className="form-control lname" type="text" name="last_name" placeholder={languageManager.lname} defaultValue={last_name} onChange={(e) => this.updateValue(e.target.name, e.target.value)}/>
                             </div>
                             <div className="form-group">
-                                <input className="form-control email" type="text" name="email" placeholder={languageManager.email} value={email} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
+                                <input className="form-control email" type="text" name="email" placeholder={languageManager.email} defaultValue={email} onChange={(e) => this.updateValue(e.target.name, e.target.value)}/>
                             </div>
                             <div className="form-group">
-                                <button onClick={this.handleForward} className='registerBtn'>{languageManager.button}</button>
+                                <button onClick={this.handleForward.bind(this)} className='registerBtn'>{languageManager.button}</button>
                             </div>
                         </div>
-                        <div className='form-wrapper two'>
-                            {this.state.errors && <div className="errors">
-                                {this.state.errors[0]}
-                            </div>}
+                        : <div className='form-wrapper two'>
+                            {errorMsgs.map(arr => arr.map(error => <div key={error} className="errors">{error}</div>))}
                             <div className="gtd-form-wrapper">
                                 <div className="row">
                                     <div className="col-6">
                                         <div className="form-group">
-                                            <input type="text" name="first_name" placeholder={languageManager.fname} value={first_name} className="form-control gtd-field-fname" onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
+                                            <input type="text" name="first_name" placeholder={languageManager.fname} defaultValue={first_name} className="form-control gtd-field-fname" onChange={(e) => this.updateValue(e.target.name, e.target.value)}/>
                                         </div>
                                     </div>
                                     <div className="col-6">
                                         <div className="form-group">
-                                            <input type="text" name="last_name" placeholder={languageManager.lname} className="form-control gtd-field-lname" value={last_name} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
+                                            <input type="text" name="last_name" placeholder={languageManager.lname} className="form-control gtd-field-lname" defaultValue={last_name} onChange={(e) => this.updateValue(e.target.name, e.target.value)}/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="form-group">
-                                    <input type="email" name="email" placeholder={languageManager.email} className="form-control gtd-field-email" value={email} onChange={(e) => this.handleStepChange(e.target.name, e.target.value)}/>
+                                    <input type="email" name="email" placeholder={languageManager.email} className="form-control gtd-field-email" defaultValue={email} onChange={(e) => this.updateValue(e.target.name, e.target.value)}/>
                                 </div>
                                 <div className="form-group">
                                     <div className="row" style={{margin:0}}>
@@ -214,25 +148,25 @@ export default class Regform extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <button onClick={this.handleForward} className='registerBtn '>{languageManager.button}</button>
-                        </div>
-                        {/*<div className='form-wrapper three'>*/}
-                        {/*    /!*{this.state.errors && <div className="errors">*/}
-                        {/*        {this.state.errors[0]}*/}
-                        {/*    </div>}*!/                            */}
-                        {/*    <button onClick={this.handleForward} className='start' >{languageManager.button_last}</button>*/}
-                        {/*</div>*/}
+                            <button onClick={this.handleSubmit.bind(this)} className='registerBtn '>{languageManager.button}</button>
+                        </div> }
                     </div>
+
                     <div className="error"><Mark className='excl'/><span></span></div>
                 </div>
             )
-        }else {
+        } else {
             return (
-                <div className={"Regform " + (this.props.class ? this.props.class : '')} ref={this.setTextInputRef}>
-                    <img src={logo} alt="lodaing" className="loading"/>
+                <div className="Regform">
+                    {(this.state.responseError) ?
+                        <div className="response-error">
+                            <p>{this.state.responseError}</p>
+                            <button className="registerBtn" onClick={() => this.setState({errors: {}, loading: false, step: 1})}>Ok</button>
+                        </div>
+                    :
+                    <img src={logo} alt="lodaing" className="loading"/> }
                 </div>
             )
-
         }
     }
 }

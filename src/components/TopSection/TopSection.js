@@ -17,7 +17,6 @@ export default class TopSection extends Component {
                 fr_video
             }
         };
-        this.regPanel = React.createRef();
     }
     handleScroll() {
 
@@ -32,7 +31,6 @@ export default class TopSection extends Component {
 
     render() {
         let languageManager = this.props.languageManager();
-
         return (
             <div className='TopSection'>
                 <Header languageManager={this.props.languageManager} handleScroll={this.handleScroll.bind(this)}/>
@@ -55,7 +53,7 @@ export default class TopSection extends Component {
                                 <VideoPlayer link={this.state.videos[languageManager.video]} />
                             </div>
                             <div className="col-lg-4 col-md-5 col-sm-12">
-                                <div className="form-container" ref={this.regPanel}>
+                                <div className="form-container">
                                     <div className="formHeader"><h1>{languageManager.topreg1}</h1></div>
                                     <Regform {...this.props} />
                                 </div>
