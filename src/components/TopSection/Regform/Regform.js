@@ -13,7 +13,7 @@ export default class Regform extends Component {
                 first_name: "",
                 last_name: "",
                 email: "",
-                tel: "",
+                phone_number: "",
             },
             errors: '',
             step: 1
@@ -64,6 +64,7 @@ export default class Regform extends Component {
             tel
         } = this.state.form;
         let languageManager = this.props.languageManager(),
+
             errorMsgs = (this.state.errors) ? Object.keys(this.state.errors).map(key => {
                 if (this.state.errors[key].messages) return this.state.errors[key].messages
             }).filter(value => value) : []
@@ -132,18 +133,7 @@ export default class Regform extends Component {
                                             inputClassName="inputfield form-control tel"
                                             autoPlaceholder={true}
                                             separateDialCode={true}
-                                            onSelectFlag={this.handleSelectFlag}
-                                            defaultCountry={this.state.country_name}
-                                            onPhoneNumberBlur={this.phoneNumberBlur}
-                                            onPhoneNumberChange={(status, value, countryData, number, id) => {
-                                                if (value.length < 15) {
-                                                    this.setState({
-                                                        phone_country_prefix: `+${countryData.dialCode}`,
-                                                        tel: value.replace(/[^0-9]/g, ''),
-                                                    })
-                                                }
-                                            }}
-                                            value={tel}
+                                            onPhoneNumberChange={(e, value) => this.updateValue('phone_number', value.replace(/\D/g,''))}
                                         />
                                     </div>
                                 </div>
