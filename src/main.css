@@ -225,7 +225,7 @@ form[data-init][data-mode="slidingform"] [data-subject="wrapper"]{
     background-image: linear-gradient(166deg, #156cff 1%, #0e49ff);
     box-shadow: 0px 4px 20.9px 3.1px rgba(13, 13, 13, 0.43);
     text-transform: uppercase;
-    width: 90%;
+    width: 100%;
     min-height: 64px;
     cursor: pointer;
     bottom: -16px;

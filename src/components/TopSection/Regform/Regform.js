@@ -138,7 +138,9 @@ export default class Regform extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <button onClick={this.handleSubmit.bind(this)} className='registerBtn '>{languageManager.button}</button>
+                            <div className="form-group">
+                                <button onClick={this.handleSubmit.bind(this)} className='registerBtn '>{languageManager.button}</button>
+                            </div>
                         </div> }
                     </div>
 
