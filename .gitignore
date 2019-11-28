@@ -2,7 +2,6 @@
 
 # dependencies
 bcevolution-folder/node_modules
-/config
 /node_modules
 /.pnp
 .pnp.js
