@@ -13,7 +13,6 @@ export default class Regform extends Component {
                 first_name: "",
                 last_name: "",
                 email: "",
-                phone_number: "",
             },
             errors: '',
             step: 1
@@ -33,16 +32,20 @@ export default class Regform extends Component {
     handleForward() {
         let validate = this.props.validateParams(this.state.form)
 
-        if (validate.success)
+        if (validate.success) {
             this.props.setLeadData(this.state.form)
-            .then(this.setState({
-                step: this.state.step +1
-            }))
-            .then(() => { if (this.state.step === 2) this.props.handleLeadStep() })
-            .then(() => this.setState({
-                errors: {}
-            }))
-        else this.setState({errors: validate.errors})
+                .then(this.setState({
+                    step: this.state.step +1,
+                    form: {
+                        ...this.state.form,
+                        phone_number: this.state.form.phone_number ? this.state.form.phone_number : '' ,
+                    }
+                }))
+                .then(() => { if (this.state.step === 2) this.props.handleLeadStep() })
+                .then(() => this.setState({
+                    errors: {}
+                }))
+        } else this.setState({errors: validate.errors})
     }
 
     handleSubmit() {
@@ -61,7 +64,7 @@ export default class Regform extends Component {
             first_name,
             last_name,
             email,
-            tel
+            phone_number
         } = this.state.form;
         let languageManager = this.props.languageManager(),
 
@@ -129,10 +132,12 @@ export default class Regform extends Component {
                                     <div className="row" style={{margin:0}}>
                                         <IntlTelInput
                                             preferredCountries={[this.props.countryCode]}
+                                            defaultCountry={this.props.countryCode.toLowerCase()}
                                             containerClassName="intl-tel-input"
                                             inputClassName="inputfield form-control tel"
                                             autoPlaceholder={true}
                                             separateDialCode={true}
+                                            value={phone_number}
                                             onPhoneNumberChange={(e, value) => this.updateValue('phone_number', value.replace(/\D/g,''))}
                                         />
                                     </div>
