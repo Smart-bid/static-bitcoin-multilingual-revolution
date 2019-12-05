@@ -24,6 +24,7 @@ export default class Regform extends Component {
             tempForm = this.state.form
         obj[key] = value
         Object.assign(tempForm, obj)
+        this.props.trackStartEdit()
         this.setState({
             form: tempForm
         })
