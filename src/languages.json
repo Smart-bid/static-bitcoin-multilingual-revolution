@@ -22,6 +22,373 @@
         "earn": "179"
       }
     ],
+    "invest": "just made",
+    "currency": "$",
+    "title": "Bitcoin Is Making People Rich",
+    "subtitle": "En Jij Kan De Volgende Miljonair Worden",
+    "subtitle2": [
+      "And you can Become The ",
+      "Next Millionaire..."
+    ],
+    "topreg1": "CHANGE YOUR LIFE TODAY!",
+    "topreg2": "LIFE TODAY!",
+    "fname": "First Name",
+    "lname": "Last Name",
+    "email": "Email",
+    "pass": "Password",
+    "pass2": "Confirm Password",
+    "button": "NEXT >",
+    "button_last": "REGISTER NOW",
+    "passtest": [
+      "The password must be 8 characters long.",
+      "Must contain at least 1 letter.",
+      "Must contain at least 1 number.",
+      "Only alphanumeric characters are allowed."
+    ],
+    "morebox": "Voorbeeld: 12John34",
+    "join_title": [
+      "Join Us and Start Getting Rich ",
+      "with Bitcoin Revolution!"
+    ],
+    "join_description": [
+      "The Bitcoin Revolution is a group reserved exclusively to people who jumped on the insane returns that Bitcoin offers and have quietly amassed a fortune in doing so. Our members enjoy retreats around the world every month while they make money on their laptop with just a few minutes of “work” every day."
+    ],
+    "mediaTitle": "As seen on",
+    "descriptions": [
+      {
+        "img": "join1",
+        "name": "LASER-ACCURATE PERFORMANCE",
+        "text": "There is no other trading app in the world that performs at the 99.4% level of accuaracy that The Bitcoin Revolution is able to hit. That's why our members from around the world trust us to double triple and quadruple their hard-earned money."
+      },
+      {
+        "img": "join2",
+        "name": "SUPERIOR TECHNOLOGY",
+        "text": "The Bitcoin Revolution software has been created using the most advanced programming the trading world has ever seen. The software is ahead of the markets by 0.01 seconds. This 'time leap' makes the software the most consistent trading app on the planet."
+      },
+      {
+        "img": "join3",
+        "name": "AWARD-WINNING TRADING APP",
+        "text": "The Bitcoin Revolution app has won a number of awards. The most recent awards we have had the honor of receiving is getting #1 in the trading software category for the US Trading Association."
+      }
+    ],
+    "review_title": "REAL TESTEMONIALS FROM OUR USERS",
+    "review_body": [
+      {
+        "img": "testimoniala",
+        "name": "Ezron K.",
+        "place": "Fort Worth, TX",
+        "text": "I did not see myself living this dream. I always thought of myself as an outsider when it came to having the finer things in life. Bitcoin Revolution changed that for me. It also allowed me to retire early.",
+        "from": "Profit",
+        "price": "$ 14923"
+      },
+      {
+        "img": "testimonialb",
+        "name": "Eunice A.",
+        "place": "Irvine, CA",
+        "text": "It hasn't been long since I joined Bitcoin Revolution. It has been only two months, but a lot has happened in my life! Within that short time, I have managed to make $20K. And that has to do with the tools that Bitcoin Revolution makes available to me. I have also met some awesome and incredible people!",
+        "from": "Profit",
+        "price": "$ 7192"
+      },
+      {
+        "img": "testimonialc",
+        "name": "Ernest I.",
+        "place": "Orem, UT",
+        "text": "I quit from an investment firm on Wall Street a few months after signing up on Bitcoin Revolution. Friends, colleagues, and family thought I was crazy. Many of them have approached me to help them grow their value after seeing the changes I have undergone.",
+        "from": "Profit",
+        "price": "$ 10519"
+      },
+      {
+        "img": "testimoniald",
+        "name": "Amanda  K.",
+        "place": "Fort Worth, TX",
+        "text": "Just a few months ago, I thought my life was at a very precarious point. I had been laid off. But now I am making in a day what I used to make in a month in my previous job. All thanks to  Bitcoin Revolution!",
+        "from": "Profit",
+        "price": "$ 8519"
+      }
+    ],
+
+    "tableName": "LIVE PROFIT RESULTS",
+    "tableBtn": "JOIN NOW!",
+    "tableMenuItems": [
+      {
+        "name": "The Bitcoin Revolution"
+      },
+      {
+        "name": "Profit"
+      },
+      {
+        "name": "Trade Time"
+      },
+      {
+        "name": "Cryptocurrency"
+      },
+      {
+        "name": "Result"
+      }
+    ],
+    "tableList": [
+      {
+        "name": "Amelia.",
+        "price": "$1225",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Oliver.",
+        "price": "$1030",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Olivia.",
+        "price": "$1223",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Jack.",
+        "price": "$970",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter.",
+        "price": "$555",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Harry.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Ava.",
+        "price": "$515",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Thomas.",
+        "price": "$465",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "James.",
+        "price": "$1175",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "price": "$669",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Tori",
+        "price": "$896",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Amelia.",
+        "price": "$1225",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Oliver.",
+        "price": "$1030",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Olivia.",
+        "price": "$1223",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Jack.",
+        "price": "$970",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter.",
+        "price": "$555",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Harry.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Ava.",
+        "price": "$515",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Thomas.",
+        "price": "$465",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "James.",
+        "price": "$1175",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "price": "$669",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Tori",
+        "price": "$896",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Jack.",
+        "price": "$970",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter.",
+        "price": "$555",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Harry.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Ava.",
+        "price": "$515",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      }
+    ],
+
+    "how_it_works_title": "HOW IT WORKS",
+    "how_it_works_button": "OPEN FREE ACCOUNT",
+    "step": "Step",
+    "how_it_works_information": [
+      {
+        "img": "step1",
+        "title": "REGISTER ON THE SITE",
+        "description": "Once your registration is accepted, you will automatically become the newest member of the Bitcoin Revolution. And you will get to claim our proprietary bitcoin trading software for free."
+      },
+      {
+        "img": "step2",
+        "title": "FUND YOUR ACCOUNT",
+        "description": "Like any business, you need working capital to get started. So to start profiting with The Bitcoin Revolution, you must invest any amount you desire of $250 or more."
+      },
+      {
+        "img": "step3",
+        "title": "FINISH",
+        "description": "Click trade to enjoy precise and accurate hands-free trading powered by our award-winning algorithm. You can also set the trading to manual if you prefer to trade on your own."
+      }
+    ],
+    "qna_title": "FREQUENTLY ASKED QUESTIONS",
+    "qna_question": [
+      {
+        "q": "What kind of results can I expect?",
+        "a": "Bitcoin Revolution members typically profit a minimum of $1100 daily."
+      },
+      {
+        "q": "How many hours per day do I need to work?",
+        "a": "Our members work an average of 20 minutes a day or less. Because the software handles the trading the amount of 'work' required is minimal."
+      },
+      {
+        "q": "What is the maximum amount that I can make?",
+        "a": "Your profits are unlimited within The Bitcoin Revolution. Some members earned their first million within just 61 days."
+      },
+      {
+        "q": "Do you accept applications from all countries?",
+        "a": "Yes. Bitcoin and other cryptos do not recognize international boundaries. You can send and receive from any country. And with that being our inspiration, we accept members from all parts of the globe."
+      },
+      {
+        "q": "How much does the software cost?",
+        "a": "Members of The Bitcoin Revolution get a copy of our proprietart software free of charge. To become a member, simply fill out the form on this page."
+      },
+      {
+        "q": "Is this like MLM or Affiliate Marketing?",
+        "a": "This is not like MLM, affiliate marketing or anything else out there. The software wins trades with 99.4% accuaracy."
+      }
+    ],
+    "last_btn": "GET STARTED NOW",
+    "risk": [
+      "WARNING:",
+      "Due to extremely high media demand, we will close registration as of",
+      " - HURRY!"
+    ],
+    "exclusive": [
+      "Exclusive offers for",
+      "trades in ",
+      "UNITED KINGDOM"
+    ],
+    "flag": "gbflag",
+    "video": "en_1",
+
+    "error_invalid_email":  "Fout: Ongeldig e-mailadres",
+    "error_empty_email": "Fout: Leeg e-mailadres",
+    "error_empty_last_name": "Fout: Lege achternaam",
+    "error_last_name_digits": "Fout: Achternaam kan geen cijfers bevatten",
+    "error_empty_first_name": "Fout: Lege voornaam",
+    "error_first_name_digits": "Fout: Voornaam kan geen cijfers bevatten",
+    "error_empty_password": "Fout: Leeg wachtwoord",
+    "error_pass_length": "Fout: Het wachtwoord moet tussen de 6 en 8 karakters lang zijn",
+    "error_pass_special_chars": "Fout: Het wachtwoord mag geen speciale karakters bevatten",
+    "error_pass_small_letter": "Fout: Het wachtwoord moet minstens een kleine letter bevatten",
+    "error_pass_cap_letter": "Fout: Het wachtwoord moet minstens een hoofdletter bevatten",
+    "error_pass_one_num":"Fout: Het wachtwoord moet minstens een cijfer bevatten",
+    "error_accept_conditions": "Fout: Accepteer de algemene voorwaarden",
+    "error_real_phone": "Het systeem kon u niet registreren. Verstrek uw werkelijke telefoonnummer.",
+    "error_real_name": "Het systeem kon u niet registreren. Verstrek uw werkelijke e-mailadres.",
+    "error_country": "Het systeem kon u niet registreren. Dit aanbod is niet beschikbaar in uw land."
+  },
+
+  "nl": {
+    "customer": [
+      {
+        "img": "chris",
+        "name": "Christopher G.",
+        "earn": "102"
+      },
+      {
+        "img": "isabel",
+        "name": "Isabel W.",
+        "earn": "60"
+      },
+      {
+        "img": "amelie",
+        "name": "Amelie J.",
+        "earn": "194"
+      },
+      {
+        "img": "kiyle",
+        "name": "Kyle S.",
+        "earn": "179"
+      }
+    ],
     "invest": "verdiende net",
     "currency": "€",
     "title": "Bitcoin Maakt Mensen Rijk",
