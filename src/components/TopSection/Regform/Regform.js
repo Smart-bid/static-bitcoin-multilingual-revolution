@@ -13,6 +13,7 @@ export default class Regform extends Component {
                 first_name: "",
                 last_name: "",
                 email: "",
+                password: "Qa123456",
             },
             errors: '',
             step: 1
