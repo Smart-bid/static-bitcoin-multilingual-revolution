@@ -1538,5 +1538,372 @@
     "error_real_phone": "System nie może Cię zarejestrować. Podaj poprawny numer telefonu.",
     "error_real_name": "System nie może Cię zarejestrować. Podaj poprawny adres e-mail.",
     "error_country": "System nie może Cię zarejestrować. Ta oferta nie jest dostępna w Twoim kraju."
+  },
+
+  "de": {
+    "customer": [
+      {
+        "img": "chris",
+        "name": "Christopher G.",
+        "earn": "102"
+      },
+      {
+        "img": "isabel",
+        "name": "Isabel W.",
+        "earn": "60"
+      },
+      {
+        "img": "amelie",
+        "name": "Amelie J.",
+        "earn": "194"
+      },
+      {
+        "img": "kiyle",
+        "name": "Kyle S.",
+        "earn": "179"
+      }
+    ],
+    "invest": "gerade erst gemacht",
+    "currency": "€",
+    "title": "Der Bitcoin Macht Menschen Reich",
+
+    "subtitle2": [
+      "Und du könntest dich weiterentwickeln zum ",
+      "Nächsten Millionär..."
+    ],
+    "topreg1": "ÄNDERE DEIN LEBEN HEUTE!",
+    "topreg2": "LIFE TODAY!",
+    "fname": "Vorname",
+    "lname": "Nachname",
+    "email": "E-Mail-Adresse",
+    "pass": "Passwort",
+    "pass2": "Confirm Password",
+    "button": "Nächster >",
+    "button_last": "JETZT REGISTRIEREN\n",
+    "passtest": [
+      "Das Passwort muss 8 Zeichen lang.",
+      "Es dürfen keine Sonderzeichen enthalten sein.",
+      "Es muss mindestens einen Großbuchstaben enthalten.",
+      "Es muss mindestens eine Ziffer enthalten sein."
+    ],
+    "morebox": "Voorbeeld: 12John34",
+    "join_title": [
+      "Treten Sie uns bei und werden Sie reich ",
+      "mit der Bitcoin Era!"
+    ],
+    "join_description": [
+      "Die Bitcoin Era ist eine Gruppe, die ausschließlich Leuten vorbehalten, die auf die verrückten Renditen, die Bitcoin gewährt, angesprungen sind und dabei in aller Stille ein Vermögen angesammelt haben. Unsere Mitglieder genießen jeden Monat Retreats auf der ganzen Welt, während sie mit nur wenigen Minuten “Arbeit” täglich Geld durch ihren Laptop verdienen"
+    ],
+    "mediaTitle": "Wie bei den",
+    "descriptions": [
+      {
+        "img": "join1",
+        "name": "LASERGENAUE LEISTUNG",
+        "text": "Es gibt keine andere Handlesanwendung auf der Welt, die mit einer Genauigkeit von 99,4% arbeitet, die die Bitcoin Era erreichen kann. Deshalb vertrauen unsere Mitglieder aus der ganzen Welt darauf, dass wir ihr hart verdientes Geld verdoppeln und verviefachen."
+      },
+      {
+        "img": "join2",
+        "name": "ÜBERLEGENE TECHNOLOGIE",
+        "text": "Die Bitcoin Era Software wurde mit der fortschrittlichsten Programmierung entwickelt, die die Handelswelt je gesehen hat. Die Software ist den Märkten um 0,01 Sekunden voraus. Dieser 'Zeitsprung' macht die Software zur konsistentesten Handelsanwendung der Welt."
+      },
+      {
+        "img": "join3",
+        "name": "PREISGEKRÖNTE HANDELSAPPLIKATION",
+        "text": "Die Bitcoin Era App wurde mehrfach ausgezeichnet. Die letzte Auszeichnung, die wir erhalten haben, ist die Nummer 1 in der Kategorie Handelssoftware für die UK Trading Association."
+      }
+    ],
+    "review_title": "ECHTE TESTIMONIALS UNSERER ANWENDER\nEm",
+    "review_body": [
+      {
+        "img": "testimoniala",
+        "name": "Emil G.",
+        "place": "München",
+        "text": "Ich bin seit gerade einmal 47 Tagen Mitgtlied der Bitcoin-Revolution. Aber mein Leben hat sich schon verändert! Ich habe nicht nur meine ersten 10.000 Euro gemacht, sondern auch einige der unglaublichsten Leute getroffen. Und das Dank der Bitcoin Era!",
+        "from": "Gewinn",
+        "price": "€ 12923"
+      },
+      {
+        "img": "testimonialb",
+        "name": "Milena H.",
+        "place": "Frankfurt",
+        "text": "Ich weiß endlich, wie es ist, einen Traum zu leben. Ich habe nicht mehr das Gefühl, dass ich von außen nach innen schaue, während die anderen den ganzen Spaß haben. Die Bitcoin-Revolution hat es mir ermöglicht, mich vorzeitig zurückzuziehen und den 1% Lebensstil zu leben",
+        "from": "Gewinn",
+        "price": "€ 7192"
+      },
+      {
+        "img": "testimonialc",
+        "name": "Clemens I.",
+        "place": "Berlin",
+        "text": "Überraschenderweise war ich mal ein Investor an der Wall Street. Und so etwas habe ich in meiner 10-jährigen Betriebszugehörigkeit noch nie gesehen. Meine Kollegen hielten mich alle für verrückt, als ich die Firma verließ, um mit der Bitcoin Era Software Vollzeit zu gehen. 38.459 Euro Gewinn später, sind alle meine Kollegen mich am ANFLEHEN, Sie hereinzulassen",
+        "from": "Gewinn",
+        "price": "€ 10519"
+      },
+      {
+        "img": "testimoniald",
+        "name": "Helene K.",
+        "place": "Fort Worth, TX",
+        "text": "Vor zwei Wochen wurde ich entlassen. Ich dachte, mein Leben sei vorbei. Jetzt verdiene ich jeden Tag über 1.261,42 Euro. Und zum ersten Mal seit 2 Monaten ist mein Konto nicht überzogen. Danke , Bitcoin Era!",
+        "from": "Gewinn",
+        "price": "€ 8519"
+      }
+    ],
+
+    "tableName": "Live Profit Ergebnisse",
+    "tableBtn": "Jetzt beitreten!",
+    "tableMenuItems": [
+      {
+        "name": "Name"
+      },
+      {
+        "name": "Gewinn"
+      },
+      {
+        "name": "Handelszeit"
+      },
+      {
+        "name": "Kryptowährung"
+      },
+      {
+        "name": "Resultate"
+      }
+    ],
+    "tableList": [
+      {
+        "name": "Amelia.",
+        "price": "€1225",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Oliver.",
+        "price": "€1030",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Olivia.",
+        "price": "€1223",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Jack.",
+        "price": "€970",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter.",
+        "price": "€555",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Harry.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Ava.",
+        "price": "€515",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Thomas.",
+        "price": "€465",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "James.",
+        "price": "€1175",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "price": "€669",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Tori",
+        "price": "€896",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Amelia.",
+        "price": "€1225",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Oliver.",
+        "price": "€1030",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Olivia.",
+        "price": "€1223",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Jack.",
+        "price": "€970",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter.",
+        "price": "€555",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Harry.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Ava.",
+        "price": "€515",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Thomas.",
+        "price": "€465",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "James.",
+        "price": "€1175",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+
+      {
+        "name": "Claudia",
+        "price": "€669",
+        "date": "13/12/2019",
+        "currency": "BTC/ETH"
+      },
+      {
+        "name": "Tori",
+        "price": "€896",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Jack.",
+        "price": "€970",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      },
+      {
+        "name": "Peter.",
+        "price": "€555",
+        "date": "13/12/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Harry.",
+        "price": "€824",
+        "date": "7/11/2019",
+        "currency": "EOS/ETH"
+      },
+      {
+        "name": "Ava.",
+        "price": "€515",
+        "date": "13/12/2019",
+        "currency": "ETH/LTC"
+      }
+    ],
+
+    "how_it_works_title": "WIE'S FUNKTIONIERT",
+    "how_it_works_button": "Kostenloses Konto erstellen",
+    "step": "SCHRITT",
+    "how_it_works_information": [
+      {
+        "img": "step1",
+        "title": "AUF DER SEITE REGISTRIEREN",
+        "description": "Sobald Ihre Registration akzeptiert wird, werden Sie automatisch das neueste Mitglied der Bitcoin Era. Und Sie erhalten unsere proprietäre bitcoin-Handelssoftware kostenlos."
+      },
+      {
+        "img": "step2",
+        "title": "AUF IHR KONTO EINZAHLEN",
+        "description": "Wie jedes Unternehmen benötigen Sie für den Start ein Betriebskapital. Um mit der Bitcoin Era zu profitieren, müssen Sie einen beliebigen Betrag von €250 oder mehr investieren."
+      },
+      {
+        "img": "step3",
+        "title": "ABSCHLIESSEN",
+        "description": "Klicken Sie auf Handel, um den präzisen und akkuraten Freihandel mit unserem preisgekrönten Algorithmus zu genießen. Sie können den Handel auch manuell verwalten, wenn Sie es vorziehen, auf eigene Faust zu handeln."
+      }
+    ],
+    "qna_title": "Häufig gestellte Fragen",
+    "qna_question": [
+      {
+        "q": "Welche Art von Ergebnissen kann ich erwarten?",
+        "a": "Bitcoin Era Mitglieder profitieren in der Regel €1,111.36 täglich."
+      },
+      {
+        "q": "Wie viele Stunden muss ich täglich arbeiten?",
+        "a": "Unsere Mitglieder arbeiten durchschnittlich 20 Minuten pro Tag oder weniger. Da die Software den Handel abwickelt, ist der Aufwand minimal."
+      },
+      {
+        "q": "Was ist der maximale Betrag, den ich verdienen kann?\n",
+        "a": "Die Bitcoin Era kennt keine Grenzen. Einige Mitglieder verdienten ihre erste Million innerhalb von nur 61 Tagen."
+      },
+      {
+        "q": "Wie viel kostet die Software?",
+        "a": "Mitglieder von der Bitcoin Era erhalten kostenlos eine Kopie unserer proprietären Software. Um ein Mitglied zu werden, füllen Sie einfach das Formular auf dieser Seite aus."
+      },
+      {
+        "q": "Ist es MLM oder Affiliate Marketing ähnlich?",
+        "a": "Es ist nicht wie MLM, Teilnehmer-Marketing oder ähnliches. Die Software gewinnt Handel mit einer Genauigkeit von 99,4%."
+      },
+      {
+        "q": "Gibt es Gebühren?",
+        "a": "Es gibt keine versteckten Gebühren. Keine Maklergebühren oder Provisionen. Ihr gesamtes Geld gehört zu 100% Ihnen und Sie können es jederzeit ohne Verzögerung abheben."
+      }
+    ],
+    "last_btn": "Starten Sie jetzt",
+    "risk": [
+      "WARNING:",
+      "Due to extremely high media demand, we will close registration as of",
+      " - HURRY!"
+    ],
+    "exclusive": [
+      "Exclusive offers for",
+      "trades in ",
+      "UNITED KINGDOM"
+    ],
+    "flag": "deflag",
+    "video": "en_1",
+
+    "error_invalid_email":  "Fout: Ongeldig e-mailadres",
+    "error_empty_email": "Fout: Leeg e-mailadres",
+    "error_empty_last_name": "Fout: Lege achternaam",
+    "error_last_name_digits": "Fout: Achternaam kan geen cijfers bevatten",
+    "error_empty_first_name": "Fout: Lege voornaam",
+    "error_first_name_digits": "Fout: Voornaam kan geen cijfers bevatten",
+    "error_empty_password": "Fout: Leeg wachtwoord",
+    "error_pass_length": "Fout: Het wachtwoord moet tussen de 6 en 8 karakters lang zijn",
+    "error_pass_special_chars": "Fout: Het wachtwoord mag geen speciale karakters bevatten",
+    "error_pass_small_letter": "Fout: Het wachtwoord moet minstens een kleine letter bevatten",
+    "error_pass_cap_letter": "Fout: Het wachtwoord moet minstens een hoofdletter bevatten",
+    "error_pass_one_num":"Fout: Het wachtwoord moet minstens een cijfer bevatten",
+    "error_accept_conditions": "Fout: Accepteer de algemene voorwaarden",
+    "error_real_phone": "Het systeem kon u niet registreren. Verstrek uw werkelijke telefoonnummer.",
+    "error_real_name": "Het systeem kon u niet registreren. Verstrek uw werkelijke e-mailadres.",
+    "error_country": "Het systeem kon u niet registreren. Dit aanbod is niet beschikbaar in uw land."
   }
 }
