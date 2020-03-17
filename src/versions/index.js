@@ -195,7 +195,7 @@ export const en = {
             text: 'The Bitcoin Evolution app has won a number of awards. The most recent award we have had the honor of receiving is getting #1 in the trading software category for the US Trading Association.'
         },
     ],
-    review_title: 'Hear From Our Members Who Rely On Our Software To Fund Their Luxury Lifestyles',
+    review_title: 'Hear From Our Members Who Rely On Our Software To Fund Their Luxury Revolutions',
     review_body:[
         {
             img: 'testimoniala',
@@ -207,7 +207,7 @@ export const en = {
             img: 'testimonialb',
             name: 'Jennifer A.',
             place: 'Irvine, CA',
-            text: '"I finally know what it’s like to live the dream. I no longer feel like I’m on the outside looking in while everyone else has all the fun. The Bitcoin Evolutionhas allowed me to retire early and live the 1% lifestyle."'
+            text: '"I finally know what it’s like to live the dream. I no longer feel like I’m on the outside looking in while everyone else has all the fun. The Bitcoin Evolutionhas allowed me to retire early and live the 1% Revolution."'
         },
         {
             img: 'testimonialc',

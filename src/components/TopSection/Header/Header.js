@@ -8,6 +8,7 @@ import nlflag from './header-photos/nl.svg'
 import plflag from './header-photos/pl.svg'
 import itflag from './header-photos/it.svg'
 import gbflag from './header-photos/GB.png'
+import frflag from './header-photos/fr.png'
 import deflag from './header-photos/de.svg'
 
 export default class Header extends Component {
@@ -26,7 +27,8 @@ export default class Header extends Component {
                 plflag,
                 itflag,
                 gbflag,
-                deflag
+                deflag,
+                frflag
             }
         };
         this.timer = 0;
